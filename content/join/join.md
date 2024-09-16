@@ -9,6 +9,7 @@ interest:
       body: Team 294 is always seeking new mentors to teach engineering principles to our students throughout the year. Our team is dependent on volunteer mentor support to provide new opportunities for our students.
       button: Mentor Interest Form
       link: https://forms.gle/sfED8y2NN847CHvY6
+
 faq:
   title: Frequently Asked Questions
   questions:

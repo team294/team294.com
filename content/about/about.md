@@ -102,7 +102,6 @@ mentors:
       name: Newton Keisic
       role: Team Spirit
 
-
 studentLeads: 
   title: Student Leads
   leads: 
