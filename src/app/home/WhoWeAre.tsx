@@ -1,4 +1,5 @@
 import Image from "next/image";
+import mediaUrl from "../MediaUrl";
 
 export const WhoWeAre = ({ content }: any) => {
   return (
@@ -12,47 +13,43 @@ export const WhoWeAre = ({ content }: any) => {
       </div>
       <div className="flex flex-col items-center gap-8 w-full">
         <div className="flex flex-row gap-8">
-          {content.buttons?.map((button: any) => (
-            <>
-              {button.image ? (
-                <a
-                  key={button.title}
-                  href={button.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="button-image button-secondary"
-                >
-                  <Image
-                    src={button.image}
-                    alt={button.title}
-                    width="100"
-                    height="100"
-                    className="h-full w-auto"
-                  />
-                </a>
-              ) : (
-                ""
-              )}
-            </>
-          ))}
-        </div>
-        {content.buttons?.map((button: any) => (
-          <>
-            {button.image ? (
-              ""
-            ) : (
+          {content.buttons?.map((button: any) =>
+            button.image ? (
               <a
                 key={button.title}
                 href={button.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="button-text button-secondary"
+                className="button-image button-secondary"
               >
-                {button.title}
+                <Image
+                  src={mediaUrl(button.image)}
+                  alt={button.title}
+                  width="100"
+                  height="100"
+                  className="h-full w-auto"
+                />
               </a>
-            )}
-          </>
-        ))}
+            ) : (
+              ""
+            )
+          )}
+        </div>
+        {content.buttons?.map((button: any) =>
+          button.image ? (
+            ""
+          ) : (
+            <a
+              key={button.title}
+              href={button.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="button-text button-secondary"
+            >
+              {button.title}
+            </a>
+          )
+        )}
       </div>
     </section>
   );

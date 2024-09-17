@@ -1,4 +1,5 @@
 import Image from "next/image";
+import mediaUrl from "../MediaUrl";
 
 export const First = ({ content }: any) => {
   return (
@@ -8,11 +9,12 @@ export const First = ({ content }: any) => {
     >
       <div className="w-full flex flex-col md:flex-row items-center gap-12">
         <Image
-          src={content.image}
+          src={mediaUrl(content.image)}
           alt="FIRST"
           width="1000"
           height="1000"
           className="object-contain w-60 md:w-1/3 h-auto"
+          priority
         />
         <p className="body text-center md:text-left md:w-2/3">{content.body}</p>
       </div>
