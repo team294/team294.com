@@ -1,4 +1,5 @@
 import Image from "next/image";
+import mediaUrl from "../MediaUrl";
 
 export const Faq = ({ content }: any) => {
   return (
@@ -15,15 +16,15 @@ export const Faq = ({ content }: any) => {
             </p>
             <p className="body text-justify mx-4">{question.answer}</p>
             {question.images ? (
-              <div className="flex flex-col md:flex-row gap-4 mx-4 max-w-3xl max-h-60">
+              <div className="flex flex-col md:flex-row gap-4 mx-4 max-w-3xl">
                 {question.images.map((image: any) => (
                   <Image
                     key={image.title}
                     alt={image.title}
-                    src={image.image}
+                    src={mediaUrl(image.image)}
                     width="1000"
                     height="1000"
-                    className="w-full md:w-1/2 h-auto object-cover rounded-xl"
+                    className="w-full md:w-1/2 h-auto object-cover rounded-xl max-h-60"
                   />
                 ))}
               </div>

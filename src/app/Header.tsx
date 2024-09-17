@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 export default function Header() {
   return (
-    <header className="flex flex-wrap md:justify-start md:flex-nowrap w-full h-28 bg-white text-sm pt-4">
+    <header className="flex flex-wrap md:justify-start md:flex-nowrap w-full h-28 bg-white text-sm pt-4 lg:fixed z-50">
       <nav className="w-full h-full z-10 shadow-lg">
         <div className="w-full h-full max-w-screen-xl mx-auto md:flex md:items-center md:justify-between">
           <div className="flex items-center justify-between h-full min-w-fit pl-4 pb-4">
