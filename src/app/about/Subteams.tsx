@@ -20,9 +20,9 @@ const Subteams = ({ content }: any) => {
   return (
     <section
       id="subteams"
-      className="w-full h-full md:px-20 py-12 bg-primary flex justify-center"
+      className="w-full h-full lg:px-20 py-12 bg-primary flex justify-center"
     >
-      <div className="relative w-full overflow-hidden">
+      <div className="relative w-full overflow-hidden max-w-screen-2xl">
         <div
           className="flex transition-transform duration-500"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}

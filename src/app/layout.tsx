@@ -23,7 +23,7 @@ export default function RootLayout({
 
         <Header />
         <div className="lg:h-28" />
-        <div className="flex justify-center">
+        <div className="flex justify-center overflow-x-clip">
           {children}
         </div>
       </body>
