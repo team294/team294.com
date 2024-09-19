@@ -372,11 +372,6 @@ export default defineConfig({
             label: "Title",
           },
           {
-            type: "string",
-            name: "link",
-            label: "Link",
-          },
-          {
             type: "datetime",
             name: "date",
             label: "Date",
