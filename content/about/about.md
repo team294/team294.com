@@ -106,15 +106,15 @@ studentLeads:
   title: Student Leads
   leads: 
     - role: Mechanical Lead
-      name: Gavin S. 
-    - role: Electrical Lead
-      name: Vivian S. 
-    - role: Impact Lead
-      name: Joey B. 
+      name: Gavin S.
     - role: Programming Lead
       name: Eric EH.
+    - role: Electrical Lead
+      name: Vivian S.
     - role: Strategy Lead
-      name: Sam S. 
+      name: Sam S.
+    - role: Impact Lead
+      name: Joey B.
     - role: Business Lead
       name: Dulce R.
 
