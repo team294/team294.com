@@ -34,9 +34,10 @@ export default async function Post({ params }: any) {
 
 export async function generateStaticParams() {
   const posts = await client?.queries?.blogConnection();
-  const paths = posts?.data?.blogConnection?.edges?.map((edge) => ({
-    slug: edge?.node?._sys.relativePath.replace(".md", ""),
-  }));
+  const paths =
+    posts?.data?.blogConnection?.edges?.map((edge) => ({
+      slug: edge?.node?._sys.relativePath.replace(".md", ""),
+    })) ?? [];
 
   return paths;
 }
