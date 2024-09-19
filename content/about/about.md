@@ -124,8 +124,8 @@ parentVolunteers:
     - name: Mely Escalante-Henricks
     - name: Eric R. Henricks
     - name: Gregg Whitney
-    - name: Joe Bennet
-    - name: Stacey Bennet
+    - name: Joe Bennett
+    - name: Stacey Bennett
     - name: Kristin Fredricks
     - name: Michael Stewart
     - name: Sara Stewart
