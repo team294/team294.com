@@ -23,7 +23,7 @@ export default defineConfig({
       publicFolder: "public",
     },
   },
-  
+
   schema: {
     collections: [
       {
@@ -353,6 +353,38 @@ export default defineConfig({
                 ],
               },
             ],
+          },
+        ],
+      },
+      {
+        name: "blog",
+        label: "Blog",
+        path: "content/blog",
+        fields: [
+          {
+            type: "image",
+            name: "image",
+            label: "Image",
+          },
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "link",
+            label: "Link",
+          },
+          {
+            type: "datetime",
+            name: "date",
+            label: "Date",
+          },
+          {
+            type: "string",
+            name: "body",
+            label: "Body",
           },
         ],
       },

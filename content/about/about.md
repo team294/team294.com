@@ -106,15 +106,15 @@ studentLeads:
   title: Student Leads
   leads: 
     - role: Mechanical Lead
-      name: Gavin S. 
-    - role: Electrical Lead
-      name: Vivian S. 
-    - role: Impact Lead
-      name: Joey B. 
+      name: Gavin S.
     - role: Programming Lead
       name: Eric EH.
+    - role: Electrical Lead
+      name: Vivian S.
     - role: Strategy Lead
-      name: Sam S. 
+      name: Sam S.
+    - role: Impact Lead
+      name: Joey B.
     - role: Business Lead
       name: Dulce R.
 
@@ -124,8 +124,8 @@ parentVolunteers:
     - name: Mely Escalante-Henricks
     - name: Eric R. Henricks
     - name: Gregg Whitney
-    - name: Joe Bennet
-    - name: Stacey Bennet
+    - name: Joe Bennett
+    - name: Stacey Bennett
     - name: Kristin Fredricks
     - name: Michael Stewart
     - name: Sara Stewart

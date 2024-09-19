@@ -22,7 +22,7 @@ export default function RootLayout({
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />        
 
         <Header />
-        <div className="lg:h-28" />
+        <div className="h-28" />
         <div className="flex justify-center overflow-x-clip">
           {children}
         </div>
