@@ -19,7 +19,7 @@ export default async function Post({ params }: any) {
         <img
           src={post.image}
           alt={post.title}
-          className="w-full h-auto max-h-80 object-cover rounded-xl"
+          className="w-full h-auto max-h-80 object-contain object-left rounded-xl"
         />
       )}
       <p className="body">{post.body}</p>
