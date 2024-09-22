@@ -20,7 +20,7 @@ const Subteams = ({ content }: any) => {
   return (
     <section
       id="subteams"
-      className="w-full h-full lg:px-20 py-12 bg-primary flex justify-center"
+      className="w-full h-full lg:px-20 py-12 bg-primary flex justify-center shadow-lg"
     >
       <div className="relative w-full overflow-hidden max-w-screen-2xl">
         <div

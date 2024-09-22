@@ -31,16 +31,24 @@ export default function Blog() {
 
   if (!retrieved) retrieveContent();
 
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return date;
+  };
+
   return (
     <div id="blog" className="flex flex-col items-center justify-center w-full">
       <section
         id="posts"
         className="flex flex-col items-center text-center w-full max-w-screen-2xl p-12 md:p-20 gap-8 md:gap-12"
       >
-        <p className="title">BCR Blog</p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
+        <p className="title">Blog</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {posts.map((post: any) => (
-            <Link href={`/blog/${post._sys.relativePath.replace(".md", "")}`}>
+            <Link
+              key={post.title}
+              href={`/blog/${post._sys.relativePath.replace(".md", "")}`}
+            >
               <div
                 key={post.link}
                 className="flex flex-col shadow-lg py-4 px-8 rounded-xl text-left gap-4 border border-primary transition-transform hover:scale-105 ease-in-out duration-300"
@@ -54,7 +62,9 @@ export default function Blog() {
                 />
                 <div>
                   <p className="body font-bold text-primary">{post.title}</p>
-                  <p className="body text-primary">{post.date}</p>
+                  <p className="body text-primary">
+                    {formatDate(post.date).toLocaleDateString()}
+                  </p>
                 </div>
               </div>
             </Link>

@@ -24,14 +24,26 @@
   .body {
     @apply text-black font-text text-sm md:text-xl whitespace-pre-line;
   }
+  .sub-body {
+    @apply text-white font-text text-xs md:text-sm whitespace-pre-line;
+  }
   .button-text {
     @apply text-white font-title text-2xl md:text-4xl w-fit h-fit pt-2 pb-1 md:pt-3 md:pb-2 px-8 rounded-full;
   }
   .button-image {
     @apply w-16 h-16 p-3 rounded-full flex items-center justify-center;
   }
+  .button-text-footer {
+    @apply font-title text-primary text-lg md:text-2xl w-fit h-fit pt-2 pb-1 px-8 rounded-full;
+  }
+  .button-image-footer {
+    @apply w-12 h-12 p-[10px] rounded-full flex items-center justify-center;
+  }
   .button-secondary {
-    @apply bg-secondary hover:bg-secondary-light transition-all duration-300;
+    @apply bg-secondary hover:bg-secondary-light transition-all duration-300 shadow-lg;
+  }
+  .button-white {
+    @apply bg-white hover:bg-opacity-85 transition-all duration-300 shadow-lg;
   }
   .section-title {
     @apply text-white font-title text-2xl md:text-3xl h-fit pt-1 pb-0 md:pt-2 md:pb-1 px-4 rounded-full w-full;

@@ -11,7 +11,7 @@ export const Faq = ({ content }: any) => {
       <div className="flex flex-col gap-8">
         {content.questions?.map((question: any) => (
           <div key={question.question} className="group flex flex-col gap-2">
-            <p className="section-title group-[&:nth-child(odd)]:bg-secondary group-[&:nth-child(even)]:bg-primary">
+            <p className="section-title shadow-lg group-[&:nth-child(odd)]:bg-secondary group-[&:nth-child(even)]:bg-primary">
               {question.question}
             </p>
             <p className="body text-justify mx-4">{question.answer}</p>
@@ -24,7 +24,7 @@ export const Faq = ({ content }: any) => {
                     src={mediaUrl(image.image)}
                     width="1000"
                     height="1000"
-                    className="w-full md:w-1/2 h-auto object-cover rounded-xl max-h-60"
+                    className="w-full md:w-1/2 h-auto object-cover rounded-xl max-h-60 shadow-lg"
                   />
                 ))}
               </div>

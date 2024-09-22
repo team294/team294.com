@@ -19,7 +19,7 @@ export const First = ({ content }: any) => {
             alt="FIRST"
             width="1000"
             height="1000"
-            className="w-full h-full"
+            className="w-full h-full transition-transform hover:scale-105 ease-in-out duration-300"
             priority
           />
         </a>

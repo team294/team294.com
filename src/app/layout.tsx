@@ -3,6 +3,7 @@ import "./globals.css";
 
 import PrelineScript from "./PrelineScript";
 import Header from "./Header";
+import Footer from "./Footer";
 
 export const metadata: Metadata = {
   title: "Beach Cities Robotics",
@@ -19,13 +20,18 @@ export default function RootLayout({
       <PrelineScript />
       <body suppressHydrationWarning={true}>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />        
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin=""
+        />
 
         <Header />
         <div className="h-28" />
-        <div className="flex justify-center overflow-x-clip">
+        <div className="flex justify-center items-start overflow-x-clip min-h-[calc(100vh-7rem)]">
           {children}
         </div>
+        <Footer />
       </body>
     </html>
   );

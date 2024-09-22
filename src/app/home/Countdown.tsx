@@ -29,22 +29,22 @@ export const Countdown = ({ content }: any) => {
     >
       <p className="title text-center">Countdown to {content.title}</p>
       <div className="flex flex-row items-center gap-1 md:gap-4">
-        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl">
+        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl shadow-lg">
           <p className="title text-white">{days}</p>
           <p className="body text-white">Days</p>
         </div>
         <p className="text-primary font-title text-6xl -mt-2 md:-mt-3">:</p>
-        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl">
+        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl shadow-lg">
           <p className="title text-white">{hours}</p>
           <p className="body text-white">Hours</p>
         </div>
         <p className="text-primary font-title text-6xl -mt-2 md:-mt-3">:</p>
-        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl">
+        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl shadow-lg">
           <p className="title text-white">{minutes}</p>
           <p className="body text-white">Minutes</p>
         </div>
         <p className="text-primary font-title text-6xl -mt-2 md:-mt-3">:</p>
-        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl">
+        <div className="flex flex-col items-center bg-primary text-white p-3 md:p-6 rounded-2xl md:rounded-3xl shadow-lg">
           <p className="title text-white">{seconds}</p>
           <p className="body text-white">Seconds</p>
         </div>

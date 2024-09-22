@@ -1,5 +1,5 @@
 ---
-image: /media/logo-text.png
+image: /media/logos/logo-text.png
 title: Welcome to Our New Website!
 date: 2024-09-18T00:00:00.000Z
 body: >

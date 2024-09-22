@@ -11,7 +11,7 @@ export default function Header() {
               <Image
                 width="300"
                 height="300"
-                src="/media/logo.png"
+                src="/media/logos/logo.png"
                 alt="Beach Cities Robotics"
                 priority
                 className="h-full w-auto hover:animate-wiggle-small"
@@ -75,12 +75,6 @@ export default function Header() {
               </Link>
               <Link className="hover:text-primary-dark" href="/blog">
                 Blog
-              </Link>
-              <Link
-                className="hover:text-primary-dark"
-                href="mailto:frc.294.business@gmail.com"
-              >
-                Contact
               </Link>
               <Link className="hover:text-primary-dark" href="/join">
                 Join

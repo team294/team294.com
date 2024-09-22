@@ -27,7 +27,7 @@ export const WhoWeAre = ({ content }: any) => {
                   alt={button.title}
                   width="100"
                   height="100"
-                  className="h-full w-auto"
+                  className="max-h-full w-auto"
                 />
               </a>
             ) : (
