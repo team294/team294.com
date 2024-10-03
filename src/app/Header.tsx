@@ -85,7 +85,7 @@ export default function Header() {
               open ? "max-h-[500px]" : "max-h-0"
             } md:max-h-none md:block basis-full grow bg-white px-8 shadow-lg md:shadow-none`}
           >
-            <div className="flex flex-col gap-x-4 md:gap-x-10 pb-3 md:pb-2 mt-5 md:mt-0 md:ps-5 md:flex-row md:items-center md:justify-end flex-wrap font-title text-3xl text-primary">
+            <div className="flex flex-col gap-x-4 md:gap-x-10 gap-y-2 pb-3 md:pb-2 mt-5 md:mt-0 md:ps-5 md:flex-row md:items-center md:justify-end flex-wrap font-title text-3xl text-primary">
               <Link
                 className="hover:text-primary-dark"
                 href="/"

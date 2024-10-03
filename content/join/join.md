@@ -4,11 +4,11 @@ interest:
     - title: Students
       body: Team 294 welcomes students with any level of knowledge. Our team thrives on the collaboration between diverse individuals and we are always eager to inspire others with our passion for STEM.
       button: Student Interest Form
-      link: https://forms.gle/sfED8y2NN847CHvY6
+      link: https://forms.gle/m27K4cnF4ksc3Gov8
     - title: Mentors
       body: Team 294 is always seeking new mentors to teach engineering principles to our students throughout the year. Our team is dependent on volunteer mentor support to provide new opportunities for our students.
       button: Mentor Interest Form
-      link: https://forms.gle/sfED8y2NN847CHvY6
+      link: https://forms.gle/o5jo5wc9RWPMcjHt5
 
 faq:
   title: Frequently Asked Questions
