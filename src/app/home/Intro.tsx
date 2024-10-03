@@ -7,7 +7,7 @@ export const Intro = ({ content }: any) => {
       id="intro"
       className="flex flex-col items-center justify-center text-center gap-8 w-full h-[90vh] px-4 bg-black bg-opacity-70 bg-blend-multiply bg-[url('/media/team.jpg')] bg-cover bg-center"
     >
-      <div className="flex flex-col gap-4 animate-fade-in -mt-[20vh]">
+      <div className="flex flex-col gap-4 animate-fade-in -mt-[20vh] md:mt-0">
         <p className="text-white font-text text-lg md:text-2xl">
           {content.prefix}
         </p>
