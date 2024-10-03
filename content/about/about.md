@@ -25,8 +25,7 @@ subteams:
       body: >-
         The Programming Sub-Team at Beach Cities Robotics handles all coding
         tasks, ensuring efficient coordination with other sub-teams. We
-        integrate and communicate with the robot’s components, using data from
-        motors and gyroscopes to navigate precisely and enhance scoring
+        use data from motors and gyroscopes to navigate precisely and enhance 
         accuracy. We work with the design team to program new features and with
         the drive team to design control layouts and LED signaling. For the
         autonomous period, we collaborate with the strategy team to program
@@ -189,4 +188,3 @@ parentVolunteers:
     - name: Sara Stewart
     - name: Deling Liu
 ---
-

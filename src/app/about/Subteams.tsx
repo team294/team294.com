@@ -48,7 +48,7 @@ const Subteams = ({ content }: any) => {
                   )}
                 </div>
                 {subteam.body && (
-                  <p className="body text-white">{subteam.body}</p>
+                  <p className="body text-white text-justify md:text-left">{subteam.body}</p>
                 )}
               </div>
               <div className="hidden xl:flex col-span-2 m-auto">
