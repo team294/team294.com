@@ -143,8 +143,11 @@ mentors:
     - image: /media/mentors/sam-karkache.jpg
       name: Sam Karkache
       role: Programming Mentor
-    - image: /media/mentors/mentor.png
-      name: Luke Brainard
+    - image: /media/mentors/john-haggerty.jpg
+      name: John Haggerty
+      role: Electrical Mentor
+    - image: /media/mentors/reuella-haggerty.jpg
+      name: Reuella Haggerty
       role: Programming Mentor
     - image: /media/mentors/dave-ansari.jpg
       name: Dave Ansari
@@ -152,6 +155,9 @@ mentors:
     - image: /media/mentors/mentor.png
       name: Chris Golden
       role: Mechanical Mentor
+    - image: /media/mentors/mentor.png
+      name: Luke Brainard
+      role: Programming Mentor
     - image: /media/mentors/newton-keisic.jpg
       name: Newton Keisic
       role: Team Spirit

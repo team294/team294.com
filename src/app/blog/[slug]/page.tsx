@@ -6,6 +6,11 @@ export default async function Post({ params }: any) {
   let post: any = await client?.queries?.blog({ relativePath: slug });
   post = post.data.blog;
 
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return date;
+  };
+
   return (
     <section
       id="post"
@@ -13,7 +18,7 @@ export default async function Post({ params }: any) {
     >
       <div>
         <p className="title">{post.title}</p>
-        <p className="body">{post.date}</p>
+        <p className="body">{formatDate(post.date).toLocaleDateString()}</p>
       </div>
       {post.image && (
         <img
