@@ -5,7 +5,7 @@ export const Mentors = ({ content }: any) => {
   return (
     <section
       id="mentors"
-      className="flex flex-col items-center text-center w-full max-w-screen-xl p-12 md:p-20 gap-8 md:gap-12"
+      className="flex flex-col items-center text-center w-full max-w-screen-xl p-8 md:p-20 gap-8 md:gap-12"
     >
       <p className="title">{content.title}</p>
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">

@@ -5,7 +5,7 @@ export const WhoWeAre = ({ content }: any) => {
   return (
     <section
       id="who-we-are"
-      className="flex flex-col w-full max-w-screen-xl p-12 md:p-20 gap-12 md:gap-20"
+      className="flex flex-col w-full max-w-screen-xl p-8 md:p-20 gap-12 md:gap-20"
     >
       <div className="flex flex-col gap-4">
         <p className="title">{content.title}</p>

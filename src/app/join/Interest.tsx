@@ -2,7 +2,7 @@ export const Interest = ({ content }: any) => {
   return (
     <section
       id="interest"
-      className="flex flex-col md:flex-row justify-center gap-8 w-full max-w-screen-xl p-12 md:p-20"
+      className="flex flex-col md:flex-row justify-center gap-8 w-full max-w-screen-xl p-8 md:p-20"
     >
       {content.groups?.map((group: any) => (
         <div

@@ -25,7 +25,7 @@ export const Countdown = ({ content }: any) => {
   return (
     <section
       id="countdown"
-      className="flex flex-col items-center p-12 md:p-20 gap-6"
+      className="flex flex-col items-center p-8 md:p-20 gap-6"
     >
       <p className="title text-center">Countdown to {content.title}</p>
       <div className="flex flex-row items-center gap-1 md:gap-4">

@@ -5,7 +5,7 @@ export const First = ({ content }: any) => {
   return (
     <section
       id="first"
-      className="flex flex-col items-center justify-center w-full max-w-screen-xl h-[90vh] md:h-auto p-12 md:p-20 gap-12 md:gap-20"
+      className="flex flex-col items-center justify-center w-full max-w-screen-xl h-[90vh] md:h-auto p-8 md:p-20 gap-12 md:gap-20"
     >
       <div className="w-full flex flex-col md:flex-row items-center gap-12 -mt-[20vh] md:mt-0">
         <a

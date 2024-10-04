@@ -21,7 +21,7 @@ export const Intro = ({ content }: any) => {
   const Marquee = ({ content }: any) => (
     <div className="w-full overflow-hidden relative">
       <div className="flex md:hidden overflow-x-hidden [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
-        <div className="flex flex-row gap-4 animate-marquee-1 whitespace-nowrap">
+        <div className="flex flex-row gap-4 animate-marquee-1 whitespace-nowrap pr-4">
           {content.banners.map((banner: any) => (
             <Banner banner={banner} key={banner.award} />
           ))}
@@ -38,7 +38,7 @@ export const Intro = ({ content }: any) => {
   return (
     <section
       id="intro"
-      className="flex flex-col items-center justify-center w-full max-w-screen-xl overflow-hidden p-12 md:py-20 gap-12 md:gap-20"
+      className="flex flex-col items-center justify-center w-full max-w-screen-xl overflow-hidden p-8 md:py-20 gap-12 md:gap-20"
     >
       <div className="w-full flex flex-col md:flex-row items-start justify-center md:-ml-16">
         <p className="title transform md:-rotate-90 md:mt-16 md:-mr-12">

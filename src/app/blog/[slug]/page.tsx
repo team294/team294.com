@@ -14,7 +14,7 @@ export default async function Post({ params }: any) {
   return (
     <section
       id="post"
-      className="flex flex-col text-left w-full max-w-screen-2xl p-12 md:p-20 gap-8 md:gap-12 overflow-hidden"
+      className="flex flex-col text-left w-full max-w-screen-2xl p-8 md:p-20 gap-8 md:gap-12 overflow-hidden"
     >
       <div>
         <p className="title">{post.title}</p>
