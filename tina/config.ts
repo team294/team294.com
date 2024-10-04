@@ -423,6 +423,45 @@ export default defineConfig({
               },
             ],
           },
+          {
+            type: "object",
+            name: "robots",
+            label: "Robots",
+            list: true,
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "image",
+                name: "image",
+                label: "Image",
+              },
+              {
+                type: "string",
+                name: "awards",
+                label: "Awards",
+                list: true,
+              },
+              {
+                type: "string",
+                name: "results",
+                label: "Results",
+              },
+              {
+                type: "string",
+                name: "code",
+                label: "Code",
+              },
+              {
+                type: "string",
+                name: "cad",
+                label: "CAD",
+              },
+            ],
+          },
         ],
       },
     ],
