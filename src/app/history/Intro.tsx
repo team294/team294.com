@@ -38,9 +38,9 @@ export const Intro = ({ content }: any) => {
   return (
     <section
       id="intro"
-      className="flex flex-col items-center justify-center w-full max-w-screen-xl overflow-hidden p-8 md:py-20 gap-12 md:gap-20"
+      className="flex flex-col items-center justify-center w-full max-w-screen-xl overflow-hidden py-8 md:py-20 gap-12 md:gap-20"
     >
-      <div className="w-full flex flex-col md:flex-row items-start justify-center md:-ml-16">
+      <div className="w-full flex flex-col md:flex-row items-start justify-center md:-ml-16 px-8">
         <p className="title transform md:-rotate-90 md:mt-16 md:-mr-12">
           {content.title}
         </p>

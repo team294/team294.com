@@ -5,7 +5,7 @@ export const Robots = ({ content }: any) => {
   return (
     <section
       id="robots"
-      className="flex flex-col justify-center w-full max-w-screen-xl gap-10 md:gap-16 p-8 md:p-20 !pt-0"
+      className="flex flex-col justify-center w-full max-w-screen-xl gap-10 md:gap-16 px-4 py-8 md:py-20 !pt-0"
     >
       <div className="flex flex-col gap-8">
         {content.map((robot: any) => (

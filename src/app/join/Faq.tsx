@@ -5,7 +5,7 @@ export const Faq = ({ content }: any) => {
   return (
     <section
       id="faq"
-      className="flex flex-col justify-center w-full max-w-screen-xl gap-10 md:gap-16 p-8 md:p-20"
+      className="flex flex-col justify-center w-full max-w-screen-xl gap-10 md:gap-16 px-4 py-8 md:py-20"
     >
       <p className="title text-center">{content.title}</p>
       <div className="flex flex-col gap-8">
