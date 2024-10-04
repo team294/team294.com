@@ -14,7 +14,19 @@ module.exports = {
         "wiggle-small": "wiggle-small 0.5s ease-in-out infinite",
         "wiggle-large": "wiggle-large 1s ease-in-out infinite",
         "fade-in-wiggle-large": "fade-in 1.5s ease-in-out, wiggle-large 1s 0.5s ease-in-out infinite",
+        "marquee-1": "marquee-1 25s linear infinite",
+        "marquee-2": "marquee-2 25s linear infinite",
       },
+      keyframes: {
+        "marquee-1": {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+        "marquee-2": {
+          "0%": { transform: "translateX(100%)" },
+          "100%": { transform: "translateX(0%)" },
+        },
+      }
     },
     colors: {
       "primary": "#1352BC",

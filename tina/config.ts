@@ -383,6 +383,48 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "history",
+        label: "History",
+        path: "content/history",
+        fields: [
+          {
+            type: "object",
+            name: "intro",
+            label: "Intro",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "body",
+                label: "Body",
+              },
+              {
+                type: "object",
+                name: "banners",
+                label: "Banners",
+                list: true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "award",
+                    label: "Award",
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 });
