@@ -33,7 +33,7 @@ export const Robots = ({ content }: any) => {
                     </p>
                   ))}
                 </div>
-                <div className="flex flex-row mx-4 gap-4">
+                <div className="flex flex-row flex-wrap mx-4 gap-4">
                   {robot.results && (
                     <a
                       className="button-text-black button-grey"
@@ -68,7 +68,6 @@ export const Robots = ({ content }: any) => {
               </div>
               {robot.image && (
                 <Image
-                  key={robot.title}
                   alt={robot.title}
                   src={mediaUrl(robot.image)}
                   width="1000"
