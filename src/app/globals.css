@@ -19,22 +19,25 @@
 
 @layer components {
   .title {
-    @apply text-primary font-title text-5xl md:text-7xl;
+    @apply text-primary font-title text-5xl lg:text-7xl;
   }
   .body {
-    @apply text-black font-text text-sm md:text-xl whitespace-pre-line;
+    @apply text-black font-text text-sm lg:text-xl whitespace-pre-line;
   }
   .sub-body {
-    @apply text-white font-text text-xs md:text-sm whitespace-pre-line;
+    @apply text-white font-text text-xs lg:text-sm whitespace-pre-line;
   }
   .button-text {
-    @apply text-white font-title text-2xl md:text-4xl w-fit h-fit pt-2 pb-1 md:pt-3 md:pb-2 px-8 rounded-full;
+    @apply text-white font-title text-2xl lg:text-4xl w-fit h-fit pt-2 pb-1 lg:pt-3 lg:pb-2 px-8 rounded-full;
+  }
+  .button-text-black {
+    @apply text-black font-title text-lg lg:text-2xl w-fit h-fit pt-1 pb-0 lg:pt-2 lg:pb-1 px-8 rounded-full;
   }
   .button-image {
     @apply w-16 h-16 p-3 rounded-full flex items-center justify-center;
   }
   .button-text-footer {
-    @apply font-title text-primary text-lg md:text-2xl w-fit h-fit pt-2 pb-1 px-8 rounded-full;
+    @apply font-title text-primary text-lg lg:text-2xl w-fit h-fit pt-1 pb-0 lg:pt-2 lg:pb-1 px-8 rounded-full;
   }
   .button-image-footer {
     @apply w-12 h-12 p-[10px] rounded-full flex items-center justify-center;
@@ -45,8 +48,101 @@
   .button-white {
     @apply bg-white hover:bg-opacity-85 transition-all duration-300 shadow-lg;
   }
+  .button-grey {
+    @apply bg-[#D9D9D9] hover:bg-opacity-85 transition-all duration-300 shadow-lg;
+  }
   .section-title {
-    @apply text-white font-title text-2xl md:text-3xl h-fit pt-1 pb-0 md:pt-2 md:pb-1 px-4 rounded-full w-full;
+    @apply text-white font-title text-2xl lg:text-3xl h-fit pt-1 pb-0 lg:pt-2 lg:pb-1 px-4 rounded-full w-full;
+  }
+
+  .banner {
+    background: #0f4bcb;
+    color: #fff;
+    display: inline-block;
+    height: 170px;
+    line-height: 1.2;
+    margin: 0 0 40px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    vertical-align: top;
+    white-space: normal;
+    width: 140px;
+  }
+
+  .banner img {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    max-height: 45px;
+    width: 75px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .banner:after {
+    border-bottom: 70px solid #0f4bcb;
+    border-color: #0f4bcb #0f4bcb transparent;
+    border-style: solid;
+    border-width: 5px 70px 20px;
+    content: "";
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 100%;
+  }
+
+  .banner .award-name,
+  .banner .award-name-long {
+    display: table;
+    font-weight: bolder;
+    height: 35px;
+    margin: 3px 0;
+    width: 100%;
+  }
+
+  .banner .award-name span,
+  .banner .award-name-long span {
+    display: table-cell;
+    font-style: italic;
+    text-transform: uppercase;
+    vertical-align: middle;
+  }
+
+  .banner .award-name-long span {
+    font-size: 85%;
+  }
+
+  .banner .award-event,
+  .banner .award-event-long {
+    display: table;
+    height: 50px;
+    text-transform: uppercase;
+    width: 100%;
+  }
+
+  .banner .award-event span,
+  .banner .award-event-long span {
+    display: table-cell;
+    max-width: 124px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: middle;
+  }
+
+  .banner .award-event {
+    font-size: 85%;
+    line-height: 130%;
+  }
+
+  .banner .award-event-long {
+    font-size: 75%;
+    line-height: 110%;
+  }
+
+  .banner,
+  .banner:after {
+    -webkit-filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.1));
   }
 }
 

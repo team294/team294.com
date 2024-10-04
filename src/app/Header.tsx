@@ -15,8 +15,18 @@ export default function Header() {
     };
   }, [open]);
 
+  const NavLink = ({ href, text }: { href: string; text: string }) => (
+    <Link
+      className="hover:text-primary-dark"
+      href={href}
+      onClick={() => setOpen(false)}
+    >
+      {text}
+    </Link>
+  );
+
   return (
-    <header className="flex flex-wrap md:justify-start md:flex-nowrap w-full h-28 bg-white text-sm pt-4 fixed z-50">
+    <header className="flex flex-wrap md:justify-start md:flex-nowrap w-full h-28 bg-white text-sm pt-4 fixed z-50 max-w-[100vw]">
       <nav className="w-full h-full z-10 shadow-lg">
         <div className="w-full h-full max-w-screen-xl mx-auto md:flex md:items-end md:justify-between">
           <div className="flex items-center justify-between h-full min-w-fit pb-4 pl-4">
@@ -86,41 +96,12 @@ export default function Header() {
             } md:max-h-none md:block basis-full grow bg-white px-8 shadow-lg md:shadow-none`}
           >
             <div className="flex flex-col gap-x-4 md:gap-x-10 gap-y-2 pb-3 md:pb-2 mt-5 md:mt-0 md:ps-5 md:flex-row md:items-center md:justify-end flex-wrap font-title text-3xl text-primary">
-              <Link
-                className="hover:text-primary-dark"
-                href="/"
-                onClick={() => setOpen(false)}
-              >
-                Home
-              </Link>
-              <Link
-                className="hover:text-primary-dark"
-                href="/about"
-                onClick={() => setOpen(false)}
-              >
-                About
-              </Link>
-              <Link
-                className="hover:text-primary-dark"
-                href="/calendar"
-                onClick={() => setOpen(false)}
-              >
-                Calendar
-              </Link>
-              <Link
-                className="hover:text-primary-dark"
-                href="/blog"
-                onClick={() => setOpen(false)}
-              >
-                Blog
-              </Link>
-              <Link
-                className="hover:text-primary-dark"
-                href="/join"
-                onClick={() => setOpen(false)}
-              >
-                Join
-              </Link>
+              <NavLink href="/" text="Home" />
+              <NavLink href="/about" text="About" />
+              <NavLink href="/history" text="History" />
+              <NavLink href="/calendar" text="Calendar" />
+              <NavLink href="/blog" text="Blog" />
+              <NavLink href="/join" text="Join" />
             </div>
           </div>
         </div>

@@ -28,7 +28,7 @@ export default function RootLayout({
 
         <Header />
         <div className="h-28" />
-        <div className="flex justify-center items-start overflow-x-clip min-h-[calc(100vh-7rem)]">
+        <div className="flex justify-center items-start overflow-x-clip min-h-[calc(100vh-7rem)] max-w-[100vw]">
           {children}
         </div>
         <Footer />
