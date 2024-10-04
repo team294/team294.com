@@ -10,9 +10,9 @@ intro:
     MCHS stayed together and were known as “Vultures”. In 1999, Hawthorne formed
     Team 207 “Metal Crafters” while RUHS and MCHS became Team 294, today known
     as “Beach Cities Robotics.” Since then, Team 294 has won two world
-    championships, 12 blue banners, and many other awards at competitions. Most
-    importantly, we have continued to inspire and challenge students ever since
-    our founding.
+    championships, twelve blue banners, and many other awards at competitions.
+    Most importantly, we have continued to inspire and challenge students ever
+    since our founding.
   banners:
     - title: Winner
       award: 2024 Newton Division
