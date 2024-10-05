@@ -440,10 +440,23 @@ export default defineConfig({
                 label: "Image",
               },
               {
-                type: "string",
-                name: "awards",
-                label: "Awards",
+                type: "object",
+                name: "events",
+                label: "Events",
                 list: true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "results",
+                    label: "Results",
+                    list: true,
+                  },
+                ],
               },
               {
                 type: "string",
