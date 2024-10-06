@@ -2,7 +2,7 @@
 intro:
   prefix: FIRST Robotics Competition Team 294
   title: Beach Cities Robotics
-  image: /media/squid.png
+  image: /media/logos/squid.png
 
 whoWeAre:
   title: Who We Are

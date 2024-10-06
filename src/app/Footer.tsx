@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mediaUrl from "./MediaUrl";
 
 export default function Footer() {
   const footer = {
@@ -34,7 +33,7 @@ export default function Footer() {
             <Image
               width="300"
               height="300"
-              src={mediaUrl(footer.image)}
+              src={footer.image}
               alt="Beach Cities Robotics"
               priority
               className="h-28 w-auto"
@@ -62,7 +61,7 @@ export default function Footer() {
               className="button-image-footer button-white"
             >
               <Image
-                src={mediaUrl(button.image)}
+                src={button.image}
                 alt={button.title}
                 width="100"
                 height="100"

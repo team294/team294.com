@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mediaUrl from "../MediaUrl";
 
 export const Faq = ({ content }: any) => {
   return (
@@ -21,7 +20,7 @@ export const Faq = ({ content }: any) => {
                   <Image
                     key={image.title}
                     alt={image.title}
-                    src={mediaUrl(image.image)}
+                    src={image.image}
                     width="1000"
                     height="1000"
                     className="w-full md:w-1/2 h-auto object-cover rounded-xl max-h-60 shadow-lg"

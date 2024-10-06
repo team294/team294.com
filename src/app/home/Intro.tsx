@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mediaUrl from "../MediaUrl";
 
 export const Intro = ({ content }: any) => {
   return (
@@ -16,7 +15,7 @@ export const Intro = ({ content }: any) => {
         </p>
       </div>
       <Image
-        src={mediaUrl(content.image)}
+        src={content.image}
         alt="Squid"
         width="100"
         height="100"

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { useState } from "react";
-import mediaUrl from "../MediaUrl";
 
 const Subteams = ({ content }: any) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -36,7 +35,7 @@ const Subteams = ({ content }: any) => {
                 <div className="inline-flex gap-6 mb-2">
                   {subteam.icon && (
                     <Image
-                      src={mediaUrl(subteam.icon)}
+                      src={subteam.icon}
                       alt={subteam.title}
                       height="100"
                       width="100"
@@ -53,7 +52,7 @@ const Subteams = ({ content }: any) => {
               </div>
               <div className="hidden xl:flex col-span-2 m-auto">
                 <Image
-                  src={mediaUrl(subteam.image)}
+                  src={subteam.image}
                   alt={subteam.title}
                   priority
                   height="1000"

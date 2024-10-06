@@ -1,6 +1,6 @@
 ---
 first:
-  image: /media/frc-logo.png
+  image: /media/logos/frc-logo.png
   body: "FIRST -- “For the Inspiration and Recognition of Science and Technology” -- is a global non-profit founded by Dean Kamen in 1989. FIRST supports 3.2 million youth aged from Pre-K to 12th Grade through their various robotics programs. The FIRST Robotics Competition (FRC) is what Beach Cities Robotics is a part of, which is for high school students. Touted as the ultimate Sport for the\_Mind, FRC participants can learn skills in design, fabrication, programming, electrical engineering, and business."
 subteams:
   title: Sub-Teams

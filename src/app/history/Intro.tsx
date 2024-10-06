@@ -1,7 +1,7 @@
 export const Intro = ({ content }: any) => {
   const Banner = ({ banner }: any) => (
     <div className="banner">
-      <img src="/media/first-logo.png" alt="First Logo" />
+      <img src="/media/logos/first-logo.png" alt="FIRST Logo" />
       <div
         className={banner.title.length < 18 ? "award-name" : "award-name-long"}
       >

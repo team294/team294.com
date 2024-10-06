@@ -27,7 +27,7 @@ faq:
       answer: The lab is located on the RUHS campus with the entrance at 623 Diamond St, Redondo Beach, CA 90277.
       images:
         - title: Map 1
-          image: /media/map1.jpg
+          image: /media/map-1.jpg
         - title: Map 2
-          image: /media/map2.jpg
+          image: /media/map-2.jpg
 ---

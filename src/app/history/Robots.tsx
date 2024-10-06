@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mediaUrl from "../MediaUrl";
 
 export const Robots = ({ content }: any) => {
   return (
@@ -76,7 +75,7 @@ export const Robots = ({ content }: any) => {
                   {robot.image && (
                     <Image
                       alt={robot.title}
-                      src={mediaUrl(robot.image)}
+                      src={robot.image}
                       width="1000"
                       height="1000"
                       className="object-cover h-auto"

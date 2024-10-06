@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mediaUrl from "../MediaUrl";
 
 export const Mentors = ({ content }: any) => {
   return (
@@ -13,7 +12,7 @@ export const Mentors = ({ content }: any) => {
           <div key={mentor.name}>
             <div className="flex flex-col items-center gap-2">
               <Image
-                src={mediaUrl(mentor.image)}
+                src={mentor.image}
                 alt={mentor.name}
                 width="100"
                 height="100"

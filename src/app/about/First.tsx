@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mediaUrl from "../MediaUrl";
 
 export const First = ({ content }: any) => {
   return (
@@ -15,7 +14,7 @@ export const First = ({ content }: any) => {
           className="object-contain w-60 md:w-1/3 h-auto"
         >
           <Image
-            src={mediaUrl(content.image)}
+            src={content.image}
             alt="FIRST"
             width="1000"
             height="1000"

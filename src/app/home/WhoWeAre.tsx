@@ -23,7 +23,7 @@ export const WhoWeAre = ({ content }: any) => {
                 className="button-image button-secondary"
               >
                 <Image
-                  src={mediaUrl(button.image)}
+                  src={button.image}
                   alt={button.title}
                   width="100"
                   height="100"
