@@ -18,22 +18,24 @@ export const Robots = ({ content }: any) => {
                   {robot.events.map((event: any) => (
                     <div key={event.title} className="body ml-4">
                       <p>{event.title}</p>
-                      {event.results.map((result: string) => (
-                        <li
-                          key={result}
-                          className={`ml-2 ${
-                            result.includes("Winner") ||
-                            result.includes("Einstein") ||
-                            result.includes("Dean") ||
-                            result.includes("Chairman") ||
-                            result.includes("Impact")
-                              ? "font-bold"
-                              : ""
-                          }`}
-                        >
-                          {result}
-                        </li>
-                      ))}
+                      <ul className="list-disc list-outside ml-5 md:ml-8">
+                        {event.results.map((result: string) => (
+                          <li
+                            key={result}
+                            className={
+                              result.includes("Winner") ||
+                              result.includes("Einstein") ||
+                              result.includes("Dean") ||
+                              result.includes("Chairman") ||
+                              result.includes("Impact")
+                                ? "font-bold"
+                                : ""
+                            }
+                          >
+                            {result}
+                          </li>
+                        ))}
+                      </ul>
                     </div>
                   ))}
                 </div>
@@ -70,7 +72,7 @@ export const Robots = ({ content }: any) => {
                   )}
                 </div>
               </div>
-              <div className="flex flex-col flex-wrap w-1/2 gap-4">
+              <div className="flex flex-col flex-wrap w-5/12 gap-4">
                 <div className="aspect-[4/3] h-fit rounded-xl shadow-lg overflow-hidden">
                   {robot.image && (
                     <Image
