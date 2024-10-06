@@ -12,7 +12,7 @@ import ParentVolunteers from "./ParentVolunteers";
 export default function About() {
   const [retrieved, setRetrieved] = useState(false);
 
-  const [first, setFIRST] = useState({ image: "/media/blank.png", body: "" });
+  const [first, setFIRST] = useState({ image: "/media/other/blank.png", body: "" });
   const [subteams, setSubteams] = useState({ title: "", subteams: [] });
   const [mentors, setMentors] = useState({ title: "", mentors: [] });
   const [studentLeads, setStudentLeads] = useState({ title: "", leads: [] });

@@ -13,7 +13,7 @@ export default function Home() {
   const [intro, setIntro] = useState({
     prefix: "",
     title: "",
-    image: "/media/blank.png",
+    image: "/media/other/blank.png",
   });
 
   const [whoWeAre, setWhoWeAre] = useState({
