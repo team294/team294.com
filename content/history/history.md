@@ -305,7 +305,7 @@ robots:
       - title: Southern California Regional
         results:
           - Engineering Inspiration Award
-          - Woodie Flowers FInalist Award (LeRoy Nelson)
+          - Woodie Flowers Finalist Award (LeRoy Nelson)
       - title: Championship Galileo Division
         results:
           - Participant
