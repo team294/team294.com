@@ -477,6 +477,181 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "sponsors",
+        label: "Sponsors",
+        path: "content/sponsors",
+        fields: [
+          {
+            type: "object",
+            name: "intro",
+            label: "Intro",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "body1",
+                label: "Body Line 1",
+              },
+              {
+                type: "string",
+                name: "body2",
+                label: "Body Line 2",
+              },
+              {
+                type: "object",
+                name: "sponsors",
+                label: "Sponsors",
+                fields: [
+                  {
+                    type: "object",
+                    name: "large",
+                    label: "Large",
+                    list: true,
+                    fields: [
+                      {
+                        type: "string",
+                        name: "title",
+                        label: "Title",
+                      },
+                      {
+                        type: "image",
+                        name: "image",
+                        label: "Image",
+                      },
+                      {
+                        type: "string",
+                        name: "link",
+                        label: "Link",
+                      },
+                    ],
+                  },
+                  {
+                    type: "object",
+                    name: "small",
+                    label: "Small",
+                    list: true,
+                    fields: [
+                      {
+                        type: "string",
+                        name: "title",
+                        label: "Title",
+                      },
+                      {
+                        type: "image",
+                        name: "image",
+                        label: "Image",
+                      },
+                      {
+                        type: "string",
+                        name: "link",
+                        label: "Link",
+                      },
+                    ],
+                  },
+                  {
+                    type: "object",
+                    name: "text",
+                    label: "Text",
+                    list: true,
+                    fields: [
+                      {
+                        type: "string",
+                        name: "title",
+                        label: "Title",
+                      },
+                      {
+                        type: "string",
+                        name: "link",
+                        label: "Link",
+                      },
+                    ],
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "transition",
+            label: "Transition",
+            fields: [
+              {
+                type: "string",
+                name: "prefix",
+                label: "Prefix",
+              },
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "object",
+                name: "contact",
+                label: "Contact",
+                fields: [
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Link",
+                  },
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "object",
+            name: "levels",
+            label: "Levels",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "object",
+                name: "levels",
+                label: "Levels",
+                list: true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "value",
+                    label: "Value",
+                  },
+                  {
+                    type: "string",
+                    name: "color",
+                    label: "Color",
+                  },
+                  {
+                    type: "string",
+                    name: "benefits",
+                    label: "Benefits",
+                    list: true,
+                  },
+                ],
+              },
+            ],
+          },
+        ],
+      },
     ],
   },
 });
