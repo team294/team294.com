@@ -99,6 +99,7 @@ export default function Header() {
               <NavLink href="/" text="Home" />
               <NavLink href="/about" text="About" />
               <NavLink href="/history" text="History" />
+              <NavLink href="/sponsors" text="Sponsors" />
               <NavLink href="/calendar" text="Calendar" />
               <NavLink href="/blog" text="Blog" />
               <NavLink href="/join" text="Join" />
