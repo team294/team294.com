@@ -54,6 +54,10 @@ robots:
       - title: Championship Einstein Field
         results:
           - Finalist
+      - title: Beach Blitz
+        results:
+          - Finalist
+          - Quality Award
     results: 'https://www.thebluealliance.com/team/294/2024'
     code: 'https://github.com/team294/frc2024'
     cad: >-
