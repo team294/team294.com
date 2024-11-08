@@ -67,6 +67,9 @@ robots:
       - title: Los Angeles Regional
         results:
           - Finalist
+      - title: SoCal Showdown
+        results:
+          - Strategy Award
     results: 'https://www.thebluealliance.com/team/294/2023'
     code: 'https://github.com/team294/frc2023'
   - title: 2022 - Rapid React
