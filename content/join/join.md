@@ -23,7 +23,7 @@ faq:
         Eligible students are those attending Redondo Union High School (RUHS)
         or Mira Costa High School (MCHS) in the fall, including incoming 9th
         graders. Students from other schools without access to an FRC team may
-        join pending an application and at mentor discretion.
+        join at mentor discretion.
     - question: What skills are needed?
       answer: >-
         New members are not expected to have any prior skills when joining the
