@@ -40,8 +40,10 @@ faq:
     - question: How much does it cost to join?
       answer: >-
         Families are asked to provide a donation to the team to help cover
-        various team expenses. The suggested donation amount is TBD for the 2025
-        competition season.
+        various team expenses if they are able. The suggested donation amount is
+        $300 for the 2025 competition season. For certain travel events where
+        hotel, food, and/or transportation are required to be arranged,
+        additional funds may be requested.
     - question: How can parents contribute?
       answer: >-
         We are in need of parent volunteers to help with a variety of tasks
