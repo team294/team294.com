@@ -139,9 +139,6 @@ mentors:
     - image: /media/mentors/jenna-tripoli.jpg
       name: Jenna Tripoli
       role: Programming Mentor
-    - image: /media/mentors/sam-karkache.jpg
-      name: Sam Karkache
-      role: Programming Mentor
     - image: /media/mentors/john-haggerty.jpg
       name: John Haggerty
       role: Electrical Mentor

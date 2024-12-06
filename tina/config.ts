@@ -652,6 +652,64 @@ export default defineConfig({
           },
         ],
       },
+      {
+        name: "tutorial",
+        label: "Tutorial",
+        path: "content/resources/tutorial",
+        fields: [
+          {
+            type: "string",
+            name: "title",
+            label: "Title",
+          },
+          {
+            type: "string",
+            name: "header",
+            label: "Header",
+          },
+          {
+            type: "string",
+            name: "note",
+            label: "Note",
+          },
+          {
+            type: "string",
+            name: "time",
+            label: "Time",
+          },
+          {
+            type: "string",
+            name: "materials",
+            label: "Materials",
+            list: true,
+          },
+          {
+            type: "string",
+            name: "tools",
+            label: "Tools",
+            list: true,
+          },
+          {
+            type: "object",
+            name: "instructions",
+            label: "Instructions",
+            list: true,
+            fields: [
+              {
+                type: "string",
+                name: "text",
+                label: "Text",
+              },
+              {
+                type: "image",
+                name: "images",
+                label: "Images",
+                list: true,
+              },
+            ]
+          },
+        ],
+      },
     ],
   },
 });
