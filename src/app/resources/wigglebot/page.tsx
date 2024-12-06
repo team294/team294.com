@@ -2,6 +2,7 @@
 
 import { client } from "../../../../tina/__generated__/client";
 import { useState } from "react";
+import Image from "next/image";
 
 export default function WiggleBot() {
   const [retrieved, setRetrieved] = useState(false);
@@ -82,10 +83,11 @@ export default function WiggleBot() {
                 allowFullScreen
               ></iframe>
             ) : (
-              <img
+              <Image
                 src={tutorial.header}
                 width={1000}
                 height={1000}
+                alt="Header"
                 className="rounded-md"
               />
             )}
@@ -103,11 +105,12 @@ export default function WiggleBot() {
                 <li className="max-w-md">{step.text}</li>
                 <div className="flex flex-row flex-wrap gap-4">
                   {step.images?.map((image, key) => (
-                    <img
+                    <Image
                       src={image}
                       width={1000}
                       height={1000}
                       key={key}
+                      alt={image}
                       className="max-w-64 w-64 h-auto rounded-md"
                     />
                   ))}
