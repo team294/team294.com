@@ -663,7 +663,7 @@ export default defineConfig({
             label: "Title",
           },
           {
-            type: "image",
+            type: "string",
             name: "header",
             label: "Header",
           },
