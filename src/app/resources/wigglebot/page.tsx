@@ -48,7 +48,7 @@ export default function WiggleBot() {
         <div className="flex flex-row flex-wrap gap-8">
           <div className="max-w-md w-full mr-8 space-y-6">
             <div>
-              <b>Time:</b>
+              <b>Time: </b>
               {tutorial.time}
             </div>
             <div>
