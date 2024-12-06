@@ -2,6 +2,7 @@
 
 import { client } from "../../../../tina/__generated__/client";
 import { useState } from "react";
+import mediaUrl from "../../MediaUrl";
 
 export default function Catapult() {
   const [retrieved, setRetrieved] = useState(false);
@@ -83,7 +84,7 @@ export default function Catapult() {
               ></iframe>
             ) : (
               <img
-                src={tutorial.header}
+                src={mediaUrl(tutorial.header)}
                 width={1000}
                 height={1000}
                 className="rounded-md"
@@ -104,7 +105,7 @@ export default function Catapult() {
                 <div className="flex flex-row flex-wrap gap-4">
                   {step.images?.map((image, key) => (
                     <img
-                      src={image}
+                      src={mediaUrl(image)}
                       width={1000}
                       height={1000}
                       key={key}

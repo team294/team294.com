@@ -1,5 +1,4 @@
 import Image from "next/image";
-import mediaUrl from "../MediaUrl";
 
 export const WhoWeAre = ({ content }: any) => {
   return (
