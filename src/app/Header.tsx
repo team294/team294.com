@@ -101,7 +101,6 @@ export default function Header() {
               <NavLink href="/history" text="History" />
               <NavLink href="/sponsors" text="Sponsors" />
               <NavLink href="/calendar" text="Calendar" />
-              <NavLink href="/blog" text="Blog" />
               <NavLink href="/join" text="Join" />
             </div>
           </div>
