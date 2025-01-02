@@ -24,16 +24,16 @@ subteams:
       icon: /media/icons/programming.png
       body: >-
         The Programming Sub-Team at Beach Cities Robotics handles all coding
-        tasks, ensuring efficient coordination with other sub-teams. We
-        use data from motors and gyroscopes to navigate precisely and enhance 
-        accuracy. We work with the design team to program new features and with
-        the drive team to design control layouts and LED signaling. For the
-        autonomous period, we collaborate with the strategy team to program
-        routes for optimal scoring. During driver control, we develop command
-        sequences for complex actions. We also use computer vision and
-        trajectory calculations to improve task accuracy. Additionally, we
-        ensure all software systems are functional and up to date, test gyro and
-        motor systems, and maintain the team website.
+        tasks, ensuring efficient coordination with other sub-teams. We use data
+        from motors and gyroscopes to navigate precisely and enhance  accuracy.
+        We work with the design team to program new features and with the drive
+        team to design control layouts and LED signaling. For the autonomous
+        period, we collaborate with the strategy team to program routes for
+        optimal scoring. During driver control, we develop command sequences for
+        complex actions. We also use computer vision and trajectory calculations
+        to improve task accuracy. Additionally, we ensure all software systems
+        are functional and up to date, test gyro and motor systems, and maintain
+        the team website.
       image: /media/subteams/programming.jpg
     - title: Electrical
       icon: /media/icons/electrical.png
@@ -123,7 +123,7 @@ mentors:
         Strategy
         Lead Mentor
     - image: /media/mentors/jim-villani.jpg
-      name: Jim Villani
+      name: Natalie Villani
       role: |
         Business
         Lead Mentor
@@ -185,3 +185,4 @@ parentVolunteers:
     - name: Sara Stewart
     - name: Deling Liu
 ---
+
