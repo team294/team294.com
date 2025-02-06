@@ -133,24 +133,27 @@ mentors:
     - image: /media/mentors/ruth-cleveland.jpg
       name: Ruth Cleveland
       role: Mechanical Mentor
-    - image: /media/mentors/jessica-x.png
-      name: Jessica X
-      role: Business Mentor
+    - image: /media/mentors/dave-ansari.jpg
+      name: Dave Ansari
+      role: Mechanical Mentor
+    - image: /media/mentors/chris-golden.jpg
+      name: Chris Golden
+      role: Mechanical Mentor
     - image: /media/mentors/jenna-tripoli.jpg
       name: Jenna Tripoli
       role: Programming Mentor
     - image: /media/mentors/john-haggerty.jpg
       name: John Haggerty
       role: Electrical Mentor
+    - image: /media/mentors/angelina-rossini.jpg
+      name: Angelina Rossini
+      role: Mechanical Mentor
+    - image: /media/mentors/jessica-x.png
+      name: Jessica X
+      role: Business Mentor
     - image: /media/mentors/reuella-haggerty.jpg
       name: Reuella Haggerty
       role: Programming Mentor
-    - image: /media/mentors/dave-ansari.jpg
-      name: Dave Ansari
-      role: Mechanical Mentor
-    - image: /media/mentors/mentor.png
-      name: Chris Golden
-      role: Mechanical Mentor
     - image: /media/mentors/mentor.png
       name: Luke Brainard
       role: Programming Mentor
@@ -164,8 +167,6 @@ studentLeads:
       name: Gavin S.
     - role: Programming Lead
       name: Eric EH.
-    - role: Electrical Lead
-      name: Vivian S.
     - role: Strategy Lead
       name: Sam S.
     - role: Impact Lead

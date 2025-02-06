@@ -41,6 +41,6 @@ whoWeAre:
       link: 'https://linktr.ee/BCR294'
 countdown:
   title: 2025 Los Angeles Regional
-  date: 2025-03-14T07:00:00.000Z
+  date: 2025-03-14T15:00:00.000Z
 ---
 
