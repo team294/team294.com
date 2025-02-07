@@ -127,18 +127,21 @@ mentors:
       role: |
         Business
         Lead Mentor
-    - image: /media/mentors/kristen-ung.jpg
-      name: Kristen Ung
-      role: Electrical Mentor
-    - image: /media/mentors/ruth-cleveland.jpg
-      name: Ruth Cleveland
-      role: Mechanical Mentor
     - image: /media/mentors/dave-ansari.jpg
       name: Dave Ansari
       role: Mechanical Mentor
     - image: /media/mentors/chris-golden.jpg
       name: Chris Golden
       role: Mechanical Mentor
+    - image: /media/mentors/ruth-cleveland.jpg
+      name: Ruth Cleveland
+      role: Mechanical Mentor
+    - image: /media/mentors/kristen-ung.jpg
+      name: Kristen Ung
+      role: Electrical Mentor
+    - image: /media/mentors/jessica-x.png
+      name: Jessica X
+      role: Business Mentor
     - image: /media/mentors/jenna-tripoli.jpg
       name: Jenna Tripoli
       role: Programming Mentor
@@ -148,9 +151,6 @@ mentors:
     - image: /media/mentors/angelina-rossini.jpg
       name: Angelina Rossini
       role: Mechanical Mentor
-    - image: /media/mentors/jessica-x.png
-      name: Jessica X
-      role: Business Mentor
     - image: /media/mentors/reuella-haggerty.jpg
       name: Reuella Haggerty
       role: Programming Mentor

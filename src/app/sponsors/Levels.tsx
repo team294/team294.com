@@ -1,7 +1,6 @@
 "use client";
 
 export const Levels = ({ content }: any) => {
-  console.log(content);
   return (
     <section
       id="levels"
@@ -12,7 +11,7 @@ export const Levels = ({ content }: any) => {
         {content.levels.map((level: any) => (
           <div
             key={level.title}
-            className="flex flex-col items-start md:items-center justify-center w-full shadow-lg rounded-3xl p-4 md:p-8"
+            className="flex flex-col items-start justify-center w-full shadow-lg rounded-3xl p-4 md:p-8"
           >
             <div className="flex flex-col items-start justify-center gap-4">
               <div className="flex flex-row items-end justify-start gap-4">
