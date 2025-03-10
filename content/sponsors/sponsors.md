@@ -29,9 +29,6 @@ intro:
       - title: Future Wave Foundation
         image: /media/sponsors/future-wave-solutions.png
         link: 'https://futurewavesolutions.com/'
-      - title: Fresh Brothers
-        image: /media/sponsors/fresh-brothers.png
-        link: 'https://www.freshbrothers.com/'
     text:
       - title: FIRST
         link: 'https://www.firstinspires.org/'
