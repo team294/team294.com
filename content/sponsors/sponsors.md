@@ -29,6 +29,9 @@ intro:
       - title: Future Wave Foundation
         image: /media/sponsors/future-wave-solutions.png
         link: 'https://futurewavesolutions.com/'
+      - title: ESMTech
+        image: /media/sponsors/ESMTech Logo Black.png
+        link: 'https://www.esmtech-team.com'
     text:
       - title: FIRST
         link: 'https://www.firstinspires.org/'
