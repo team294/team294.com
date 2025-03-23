@@ -40,7 +40,7 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: 2025 Los Angeles Regional
-  date: 2025-03-14T15:00:00.000Z
+  title: Aerospace Valley Regional
+  date: 2025-04-03T07:00:00.000Z
 ---
 
