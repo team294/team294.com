@@ -151,9 +151,6 @@ mentors:
     - image: /media/mentors/angelina-rossini.jpg
       name: Angelina Rossini
       role: Mechanical Mentor
-    - image: /media/mentors/reuella-haggerty.jpg
-      name: Reuella Haggerty
-      role: Programming Mentor
     - image: /media/mentors/mentor.png
       name: Luke Brainard
       role: Programming Mentor
