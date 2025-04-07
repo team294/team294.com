@@ -40,7 +40,7 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: Aerospace Valley Regional
-  date: 2025-04-03T07:00:00.000Z
+  title: World Championship
+  date: 2025-04-09T07:00:00.000Z
 ---
 
