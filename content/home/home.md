@@ -41,6 +41,6 @@ whoWeAre:
       link: 'https://linktr.ee/BCR294'
 countdown:
   title: World Championship
-  date: 2025-04-09T07:00:00.000Z
+  date: 2025-04-16T07:00:00.000Z
 ---
 
