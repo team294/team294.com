@@ -39,6 +39,8 @@ whoWeAre:
       link: 'https://forms.gle/sfED8y2NN847CHvY6'
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
+    - title: Watch Us at the World Championship (4/17- 4/19)
+      link: 'https://www.twitch.tv/firstinspires_newton'
 countdown:
   title: World Championship
   date: 2025-04-16T07:00:00.000Z
