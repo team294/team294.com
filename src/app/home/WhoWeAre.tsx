@@ -43,7 +43,7 @@ export const WhoWeAre = ({ content }: any) => {
               href={button.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="button-text button-secondary"
+              className="button-text button-secondary text-center"
             >
               {button.title}
             </a>
