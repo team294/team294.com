@@ -44,6 +44,10 @@ robots:
       - title: Los Angeles Regional
         results:
           - Semifinalist
+      - title: Aerospace Valley Regional
+        results:
+          - Quarterfinalist
+          - Imagery Award
   - title: 2024 - Crescendo
     image: /media/robots/2024.png
     events:
