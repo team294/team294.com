@@ -39,6 +39,11 @@ intro:
     - title: Winner
       award: 2001 Southern California Regional
 robots:
+  - title: 2025 - Reefscape
+    events:
+      - title: Los Angeles Regional
+        results:
+          - Semifinalist
   - title: 2024 - Crescendo
     image: /media/robots/2024.png
     events:
