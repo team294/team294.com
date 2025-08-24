@@ -40,6 +40,7 @@ intro:
       award: 2001 Southern California Regional
 robots:
   - title: 2025 - Reefscape
+    image: /media/robots/2025.png
     events:
       - title: Los Angeles Regional
         results:
@@ -48,6 +49,11 @@ robots:
         results:
           - Quarterfinalist
           - Imagery Award
+      - title: Championship Newton Division
+        results:
+          - Semifinalist
+    results: 'https://www.thebluealliance.com/team/294/2025'
+    code: 'https://github.com/team294/FRC2025'
   - title: 2024 - Crescendo
     image: /media/robots/2024.png
     events:
