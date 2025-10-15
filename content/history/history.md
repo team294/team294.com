@@ -52,6 +52,10 @@ robots:
       - title: Championship Newton Division
         results:
           - Semifinalist
+      - title: SoCal Showdown
+        results:
+          - Finalist
+          - Design Excellence Award
     results: 'https://www.thebluealliance.com/team/294/2025'
     code: 'https://github.com/team294/FRC2025'
   - title: 2024 - Crescendo
