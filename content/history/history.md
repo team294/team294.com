@@ -65,6 +65,8 @@ robots:
           - Scouting Award
     results: 'https://www.thebluealliance.com/team/294/2025'
     code: 'https://github.com/team294/FRC2025'
+    cad: >-
+      https://cad.onshape.com/documents/ea6260bea1fe525003cb9a53/w/f4b82e3e20e046c5f3be3b46/e/d8a502d8bb875b76be57b7ea
   - title: 2024 - Crescendo
     image: /media/robots/2024.png
     events:
