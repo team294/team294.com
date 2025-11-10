@@ -473,6 +473,16 @@ export default defineConfig({
                 name: "cad",
                 label: "CAD",
               },
+              {
+                type: "string",
+                name: "technicalBinder",
+                label: "Technical Binder",
+              },
+              {
+                type: "string",
+                name: "annualReport",
+                label: "Annual Report",
+              }
             ],
           },
         ],

@@ -12,8 +12,8 @@ export const Robots = ({ content }: any) => {
             <p className="section-title shadow-lg group-[&:nth-child(odd)]:bg-secondary group-[&:nth-child(even)]:bg-primary">
               {robot.title}
             </p>
-            <div className="flex flex-row justify-between mr-6 gap-4">
-              <div className="flex flex-col gap-3 md:gap-6 w-1/2">
+            <div className="flex flex-col md:flex-row justify-between md:mr-4 gap-2">
+              <div className="flex flex-col gap-3 md:gap-6 w-full md:w-1/2">
                 <div className="flex flex-col gap-2">
                   {robot.events.map((event: any) => (
                     <div key={event.title} className="body ml-4">
@@ -39,7 +39,7 @@ export const Robots = ({ content }: any) => {
                     </div>
                   ))}
                 </div>
-                <div className="hidden md:flex flex-row flex-wrap mx-4 gap-4">
+                <div className="hidden md:flex flex-row flex-wrap ml-4 gap-2">
                   {robot.results && (
                     <a
                       className="button-text-black button-grey"
@@ -70,9 +70,29 @@ export const Robots = ({ content }: any) => {
                       CAD
                     </a>
                   )}
+                  {robot.technicalBinder && (
+                    <a
+                      className="button-text-black button-grey"
+                      href={robot.technicalBinder}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Technical Binder
+                    </a>
+                  )}
+                  {robot.annualReport && (
+                    <a
+                      className="button-text-black button-grey"
+                      href={robot.annualReport}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Annual Report
+                    </a>
+                  )}
                 </div>
               </div>
-              <div className="flex flex-col flex-wrap w-5/12 gap-4">
+              <div className="flex flex-col flex-wrap gap-4 md:w-5/12 mt-2 md:mt-0">
                 <div className="aspect-[4/3] h-fit rounded-xl shadow-lg overflow-hidden">
                   {robot.image && (
                     <Image
@@ -84,7 +104,7 @@ export const Robots = ({ content }: any) => {
                     />
                   )}
                 </div>
-                <div className="md:hidden flex flex-row flex-wrap gap-4 justify-center">
+                <div className="md:hidden flex flex-row flex-wrap gap-2 justify-center">
                   {robot.results && (
                     <a
                       className="button-text-black button-grey"
@@ -113,6 +133,26 @@ export const Robots = ({ content }: any) => {
                       rel="noopener noreferrer"
                     >
                       CAD
+                    </a>
+                  )}
+                  {robot.technicalBinder && (
+                    <a
+                      className="button-text-black button-grey"
+                      href={robot.technicalBinder}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Technical Binder
+                    </a>
+                  )}
+                  {robot.annualReport && (
+                    <a
+                      className="button-text-black button-grey"
+                      href={robot.annualReport}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Annual Report
                     </a>
                   )}
                 </div>
