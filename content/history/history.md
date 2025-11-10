@@ -52,6 +52,9 @@ robots:
       - title: Championship Newton Division
         results:
           - Semifinalist
+      - title: Chezy Champs
+        results:
+          - Quarterfinalist
       - title: SoCal Showdown
         results:
           - Finalist
