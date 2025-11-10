@@ -56,6 +56,10 @@ robots:
         results:
           - Finalist
           - Design Excellence Award
+      - title: Beach Blitz
+        results:
+          - Semifinalist
+          - Scouting Award
     results: 'https://www.thebluealliance.com/team/294/2025'
     code: 'https://github.com/team294/FRC2025'
   - title: 2024 - Crescendo
