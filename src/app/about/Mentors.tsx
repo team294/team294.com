@@ -19,8 +19,8 @@ export const Mentors = ({ content }: any) => {
                 className="h-full w-full rounded-full shadow-lg"
               />
               <div>
-                <p className="body font-bold text-primary">{mentor.name}</p>
-                <p className="body text-primary">{mentor.role}</p>
+                <p className="body font-black text-primary text-sm">{mentor.name}</p>
+                <p className="body text-primary text-[0.6rem] leading-snug italic">{mentor.role}</p>
               </div>
             </div>
           </div>

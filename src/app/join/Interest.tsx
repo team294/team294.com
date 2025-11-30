@@ -7,7 +7,7 @@ export const Interest = ({ content }: any) => {
       {content.groups?.map((group: any) => (
         <div
           key={group.title}
-          className="flex flex-col shadow-lg max-w-lg p-8 rounded-xl text-center items-center border border-primary"
+          className="flex flex-col shadow-lg max-w-lg p-8 rounded-xl text-center items-center"
         >
           <p className="title">{group.title}</p>
           <p className="body text-justify">{group.body}</p>

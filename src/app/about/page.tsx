@@ -45,8 +45,8 @@ export default function About() {
       <First content={first} />
       <Subteams content={subteams.subteams} />
       <Mentors content={mentors} />
-      <StudentLeads content={studentLeads} />
-      <ParentVolunteers content={parentVolunteers} />
+      {/* <StudentLeads content={studentLeads} />
+      <ParentVolunteers content={parentVolunteers} /> */}
     </div>
   );
 }

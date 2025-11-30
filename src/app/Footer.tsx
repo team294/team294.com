@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Footer() {
   const footer = {
     image: "/media/logos/logo-text-white.png",
-    copyright: "Copyright © 2024 Beach Cities Robotics",
+    copyright: "Copyright © 2025 Beach Cities Robotics",
     contact: { title: "Email Us", link: "mailto:frc.294.business@gmail.com" },
     address: "623 Diamond Street\nRedondo Beach, CA 90277",
     buttons: [

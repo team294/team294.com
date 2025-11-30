@@ -99,34 +99,28 @@ mentors:
       name: Andrew Keisic
       role: |
         Lead Mentor,
-        Mechanical
-        Lead Mentor
+        Mechanical Lead Mentor
     - image: /media/mentors/sarah-keasler.jpg
       name: Sarah Keasler
       role: |
         Robotics Coach,
-        Impact
-        Lead Mentor
+        Impact Lead Mentor
     - image: /media/mentors/don-sawdai.jpg
       name: Don Sawdai
       role: |
-        Programming
-        Lead Mentor
+        Programming Lead Mentor
     - image: /media/mentors/zac-couch.jpg
       name: Zac Couch
       role: |
-        Electrical
-        Lead Mentor
+        Electrical Lead Mentor
     - image: /media/mentors/paul-krinsky.jpg
       name: Paul Krinsky
       role: |
-        Strategy
-        Lead Mentor
+        Strategy Lead Mentor
     - image: /media/mentors/jim-villani.jpg
       name: Natalie Villani
       role: |
-        Business
-        Lead Mentor
+        Business Lead Mentor
     - image: /media/mentors/dave-ansari.jpg
       name: Dave Ansari
       role: Mechanical Mentor
