@@ -32,6 +32,9 @@ intro:
       - title: ESMTech
         image: /media/sponsors/ESMTech Logo Black.png
         link: 'https://www.esmtech-team.com'
+      - title: West Coast Products
+        image: /media/sponsors/wcp.png
+        link: 'https://wcproducts.com'
     text:
       - title: FIRST
         link: 'https://www.firstinspires.org/'
