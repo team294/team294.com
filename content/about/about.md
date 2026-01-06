@@ -117,7 +117,7 @@ mentors:
       name: Paul Krinsky
       role: |
         Strategy Lead Mentor
-    - image: /media/mentors/jim-villani.jpg
+    - image: /media/mentors/natalie-villani.jpeg
       name: Natalie Villani
       role: |
         Business Lead Mentor
