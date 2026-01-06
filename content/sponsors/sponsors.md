@@ -33,7 +33,7 @@ intro:
         image: /media/sponsors/ESMTech Logo Black.png
         link: 'https://www.esmtech-team.com'
       - title: West Coast Products
-        image: /media/sponsors/wcp.png
+        image: /media/sponsors/wc-products.png
         link: 'https://wcproducts.com'
     text:
       - title: FIRST
