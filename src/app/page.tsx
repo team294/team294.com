@@ -47,8 +47,9 @@ export default function Home() {
     <div id="home" className="flex flex-col items-center w-full">
       <Intro content={intro} />
       <WhoWeAre content={whoWeAre} />
-      {/* <div className="bg-primary h-[1px] w-1/2 rounded" />
-      <Countdown content={countdown} /> */}
+      <div className="bg-primary h-[1px] w-1/2 rounded" />
+      <Countdown content={countdown} />
     </div>
   );
 }
+
