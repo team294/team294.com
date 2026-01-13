@@ -40,7 +40,7 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: World Championship
-  date: 2025-04-16T07:00:00.000Z
+  title: CA District Los Angeles Event
+  date: 2026-03-20T07:00:00.000Z
 ---
 
