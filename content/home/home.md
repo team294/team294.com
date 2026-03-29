@@ -26,7 +26,7 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: CA District Los Angeles Event
-  date: 2026-03-21T07:00:00.000Z
+  title: CA District Aerospace Valley Event
+  date: 2026-04-03T07:00:00.000Z
 ---
 
