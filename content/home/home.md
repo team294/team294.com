@@ -26,7 +26,7 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: CA Southern State Championship
-  date: 2026-04-10T07:00:00.000Z
+  title: World Championship
+  date: 2026-04-29T07:00:00.000Z
 ---
 
