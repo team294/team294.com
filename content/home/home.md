@@ -26,7 +26,7 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: World Championship
+  title: 2027 Season Kickoff
   date: 2027-01-09T08:00:00.000Z
 ---
 
