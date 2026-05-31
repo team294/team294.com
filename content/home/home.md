@@ -27,6 +27,6 @@ whoWeAre:
       link: 'https://linktr.ee/BCR294'
 countdown:
   title: World Championship
-  date: 2026-04-29T07:00:00.000Z
+  date: 2027-01-09T08:00:00.000Z
 ---
 
