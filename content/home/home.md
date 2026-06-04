@@ -26,7 +26,7 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: 2027 Season Kickoff
-  date: 2027-01-09T08:00:00.000Z
+  title: Lab Open House
+  date: 2026-06-14T21:00:00.000Z
 ---
 
