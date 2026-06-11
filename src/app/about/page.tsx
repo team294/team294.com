@@ -44,8 +44,8 @@ export default function About() {
     <div id="about" className="flex flex-col items-center w-full">
       <First content={first} />
       <Subteams content={subteams.subteams} />
-      {/* <Mentors content={mentors} />
-      <StudentLeads content={studentLeads} />
+      <Mentors content={mentors} />
+      {/* <StudentLeads content={studentLeads} />
       <ParentVolunteers content={parentVolunteers} /> */}
     </div>
   );
