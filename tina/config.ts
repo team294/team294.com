@@ -542,6 +542,29 @@ export default defineConfig({
                   },
                   {
                     type: "object",
+                    name: "medium",
+                    label: "Medium",
+                    list: true,
+                    fields: [
+                      {
+                        type: "string",
+                        name: "title",
+                        label: "Title",
+                      },
+                      {
+                        type: "image",
+                        name: "image",
+                        label: "Image",
+                      },
+                      {
+                        type: "string",
+                        name: "link",
+                        label: "Link",
+                      },
+                    ],
+                  },
+                  {
+                    type: "object",
                     name: "small",
                     label: "Small",
                     list: true,

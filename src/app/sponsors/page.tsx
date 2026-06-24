@@ -15,6 +15,7 @@ export default function Sponsors() {
     body: "",
     sponsors: {
       large: [],
+      medium: [],
       small: [],
       text: [],
     },

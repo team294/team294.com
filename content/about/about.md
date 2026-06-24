@@ -32,62 +32,54 @@ subteams:
 mentors:
   title: Mentors
   mentors:
-    - image: /media/mentors/andrew-keisic.jpg
-      name: Andrew Keisic
-      role: |
-        Lead Mentor,
-        Mechanical Lead Mentor
     - image: /media/mentors/sarah-keasler.jpg
       name: Sarah Keasler
-      role: |
-        Robotics Coach,
-        Impact Lead Mentor
-    - image: /media/mentors/don-sawdai.jpg
-      name: Don Sawdai
-      role: |
-        Programming Lead Mentor
+      role: Teacher Coach
+    - image: /media/mentors/natalie-villani.jpg
+      name: Natalie Villani
+      role: Lead Mentor - Operations
     - image: /media/mentors/zac-couch.jpg
       name: Zac Couch
-      role: |
-        Electrical Lead Mentor
-    - image: /media/mentors/paul-krinsky.jpg
-      name: Paul Krinsky
-      role: |
-        Strategy Lead Mentor
-    - image: /media/mentors/natalie-villani.jpeg
-      name: Natalie Villani
-      role: |
-        Business Lead Mentor
+      role: Lead Mentor - Mechanical
+    - image: /media/mentors/jenna-tripoli.jpg
+      name: Jenna Tripoli
+      role: Lead Mentor - Programming
+    - image: /media/mentors/don-sawdai.jpg
+      name: Don Sawdai
+      role: Programming Mentor
     - image: /media/mentors/dave-ansari.jpg
       name: Dave Ansari
       role: Mechanical Mentor
+    - image: /media/mentors/john-haggerty.jpg
+      name: John Haggerty
+      role: Electrical Mentor
+    - image: /media/mentors/bailey-lunn.png
+      name: Bailey Lunn
+      role: Mechanical Mentor
+    - image: /media/mentors/aidan-toscano.png
+      name: Aidan Toscano
+      role: Mechanical Mentor
+    - image: /media/mentors/arnav-kakarla.jpeg
+      name: Arnav Kakarla
+      role: Mechanical Mentor
+    - image: /media/mentors/mentor.png
+      name: Anirudh Kumar
+      role: Mechanical Mentor
+    - image: /media/mentors/jessica-x.png
+      name: Jessica X
+      role: Operations Mentor
+    - image: /media/mentors/kristen-ung.jpg
+      name: Kristen Ung
+      role: Electrical Mentor
     - image: /media/mentors/chris-golden.jpg
       name: Chris Golden
       role: Mechanical Mentor
     - image: /media/mentors/ruth-cleveland.jpg
       name: Ruth Cleveland
       role: Mechanical Mentor
-    - image: /media/mentors/kristen-ung.jpg
-      name: Kristen Ung
-      role: Electrical Mentor
-    - image: /media/mentors/jessica-x.png
-      name: Jessica X
-      role: Business Mentor
-    - image: /media/mentors/jenna-tripoli.jpg
-      name: Jenna Tripoli
-      role: Programming Mentor
-    - image: /media/mentors/john-haggerty.jpg
-      name: John Haggerty
-      role: Electrical Mentor
     - image: /media/mentors/angelina-rossini.jpg
       name: Angelina Rossini
       role: Mechanical Mentor
-    - image: /media/mentors/mentor.png
-      name: Luke Brainard
-      role: Programming Mentor
-    - image: /media/mentors/newton-keisic.jpg
-      name: Newton Keisic
-      role: Team Spirit
 studentLeads:
   title: Student Leads
   leads:

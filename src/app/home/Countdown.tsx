@@ -22,6 +22,8 @@ export const Countdown = ({ content }: any) => {
     if (distance < 0) clearInterval(x);
   }, 1000);
 
+  if (!content.date) return null;
+
   return (
     <section
       id="countdown"

@@ -10,10 +10,12 @@ intro:
     MCHS stayed together and were known as “Vultures”. In 1999, Hawthorne formed
     Team 207 “Metal Crafters” while RUHS and MCHS became Team 294, today known
     as “Beach Cities Robotics.” Since then, Team 294 has won two world
-    championships, twelve blue banners, and many other awards at competitions.
+    championships, thirteen blue banners, and many other awards at competitions.
     Most importantly, we have continued to inspire and challenge students ever
     since our founding.
   banners:
+    - title: Winner
+      award: 2026 Aerospace Valley District Event
     - title: Winner
       award: 2024 Newton Division
     - title: Winner
@@ -39,6 +41,25 @@ intro:
     - title: Winner
       award: 2001 Southern California Regional
 robots:
+  - title: 2026 - Rebuilt
+    image: /media/robots/2026.png
+    events:
+      - title: Los Angeles District Event
+        results:
+          - Semifinalist
+          - Imagery Award
+      - title: Aerospace Valley District Event
+        results:
+          - Winner
+          - Creativity Award
+      - title: California Southern State Championship
+        results:
+          - Quarterfinalist
+          - Imagery Award
+      - title: World Championship Curie Division
+        results:
+          - Participant
+    results: 'https://www.thebluealliance.com/team/294/2026'
   - title: 2025 - Reefscape
     image: /media/robots/2025.png
     events:

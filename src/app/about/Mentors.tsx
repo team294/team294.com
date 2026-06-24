@@ -4,10 +4,10 @@ export const Mentors = ({ content }: any) => {
   return (
     <section
       id="mentors"
-      className="flex flex-col items-center text-center w-full max-w-screen-xl p-8 md:p-20 gap-8 md:gap-12"
+      className="flex flex-col items-center text-center w-full max-w-screen-xl p-4 md:p-20 gap-8 md:gap-12"
     >
       <p className="title">{content.title}</p>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-8">
+      <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-6 gap-x-2 gap-y-4 md:gap-8">
         {content.mentors.map((mentor: any) => (
           <div key={mentor.name}>
             <div className="flex flex-col items-center gap-2">
@@ -19,7 +19,7 @@ export const Mentors = ({ content }: any) => {
                 className="h-full w-full rounded-full shadow-lg"
               />
               <div>
-                <p className="body font-black text-primary text-sm">{mentor.name}</p>
+                <p className="body font-black text-primary text-[0.6rem] leading-snug md:text-sm">{mentor.name}</p>
                 <p className="body text-primary text-[0.6rem] leading-snug italic">{mentor.role}</p>
               </div>
             </div>

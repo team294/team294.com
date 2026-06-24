@@ -10,30 +10,34 @@ intro:
       - title: Redondo Beach Educational Foundation
         image: /media/sponsors/rbef.png
         link: 'https://www.rbef.org/'
-      - title: The Ahmanson Foundation
-        image: /media/sponsors/the-ahmanson-foundation.png
-        link: 'https://theahmansonfoundation.org/'
-    small:
+    medium:
       - title: Northrop Grumman
         image: /media/sponsors/northrop-grumman.png
         link: 'https://www.northropgrumman.com/'
+      - title: Escape Communications
+        image: /media/sponsors/escape-communications.png
+        link: 'https://www.escapecom.com'
+      - title: SpaceX
+        image: /media/sponsors/spacex.png
+        link: 'https://www.spacex.com'
+    small:
       - title: Boeing
         image: /media/sponsors/boeing.png
         link: 'https://www.boeing.com/'
+      - title: Gene Haas Foundation
+        image: /media/sponsors/gene-haas-foundation.png
+        link: 'https://www.ghaasfoundation.org'
       - title: RTX
         image: /media/sponsors/rtx.png
         link: 'https://www.rtx.com/'
       - title: Infineon
         image: /media/sponsors/infineon.png
         link: 'https://www.infineon.com/'
-      - title: Future Wave Foundation
-        image: /media/sponsors/future-wave-solutions.png
-        link: 'https://futurewavesolutions.com/'
-      - title: ESMTech
-        image: /media/sponsors/ESMTech Logo Black.png
+      - title: ESMTech Consulting
+        image: /media/sponsors/esmtech-consulting.png
         link: 'https://www.esmtech-team.com'
       - title: West Coast Products
-        image: /media/sponsors/wc-products.png
+        image: /media/sponsors/west-coast-products.png
         link: 'https://wcproducts.com'
     text:
       - title: FIRST

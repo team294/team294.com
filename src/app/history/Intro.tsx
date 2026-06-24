@@ -47,7 +47,7 @@ export const Intro = ({ content }: any) => {
         <p className="body text-justify md:w-2/3">{content.body}</p>
       </div>
 
-      <div className="hidden md:flex flex-row flex-wrap gap-4 max-w-screen-lg justify-center">
+      <div className="hidden md:flex flex-row flex-wrap gap-4 max-w-screen-xl justify-center">
         {content.banners.map((banner: any) => (
           <Banner banner={banner} key={banner.award} />
         ))}

@@ -32,8 +32,8 @@ export const Intro = ({ content }: any) => {
           </a>
         ))}
       </div>
-      <div className="flex flex-row flex-wrap w-full max-w-screen-md justify-center items-center gap-8 md:gap-16">
-        {content.sponsors.small.map((sponsor: any) => (
+      <div className="flex flex-row flex-wrap w-full max-w-screen-md justify-center items-center gap-4 md:gap-8">
+        {content.sponsors.medium.map((sponsor: any) => (
           <a
             key={sponsor.title}
             href={sponsor.link}
@@ -50,6 +50,26 @@ export const Intro = ({ content }: any) => {
           </a>
         ))}
       </div>
+      <div className="flex flex-row flex-wrap w-full max-w-screen-md justify-center items-center gap-4 md:gap-8">
+        {content.sponsors.small.map((sponsor: any) => (
+          <a
+            key={sponsor.title}
+            href={sponsor.link}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Image
+              src={sponsor.image}
+              alt={sponsor.title}
+              width="1000"
+              height="1000"
+              className="w-auto h-auto max-w-72 md:max-w-xs max-h-10 md:max-h-12 object-contain transition-transform hover:scale-105 ease-in-out duration-300"
+            />
+          </a>
+        ))}
+      </div>
+
+      <p className="body md:text-xl text-primary font-bold tracking-widest">Friends and Alumni of Team 294</p>
     </section>
   );
 };
