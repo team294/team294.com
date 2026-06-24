@@ -26,7 +26,6 @@ whoWeAre:
     - title: View our LinkTree
       link: 'https://linktr.ee/BCR294'
 countdown:
-  title: SoCal Showdown
-  date: 2026-10-10T08:00:00-07:00
+  title: ''
 ---
 
