@@ -119,6 +119,41 @@ export default defineConfig({
         fields: [
           {
             type: "object",
+            name: "visit",
+            label: "Visit Our Lab",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "body",
+                label: "Description",
+                ui: {
+                  component: "textarea",
+                },
+              },
+              {
+                type: "string",
+                name: "directionsLink",
+                label: "Directions Link",
+              },
+              {
+                type: "string",
+                name: "mapEmbedUrl",
+                label: "Google Maps Embed URL",
+              },
+              {
+                type: "image",
+                name: "entranceImage",
+                label: "Lab Entrance Image",
+              },
+            ],
+          },
+          {
+            type: "object",
             name: "interest",
             label: "Interest",
             fields: [

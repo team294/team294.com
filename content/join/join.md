@@ -1,4 +1,13 @@
 ---
+visit:
+  title: Visit the Lab
+  body: >-
+    Our lab is on the Redondo Union High School campus. Please use the entrance
+    near 623 Diamond St, Redondo Beach, CA 90277.
+  directionsLink: https://maps.app.goo.gl/CUCS6FufDxDmTNtC6
+  mapEmbedUrl: >-
+    https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d963.2549358480761!2d-118.38544440000001!3d33.846277799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDUwJzQ2LjYiTiAxMTjCsDIzJzA3LjYiVw!5e1!3m2!1sen!2sus!4v1787546026027!5m2!1sen!2sus
+  entranceImage: /media/other/map-1.jpg
 interest:
   groups:
     - title: Students
@@ -7,14 +16,14 @@ interest:
         on the collaboration between diverse individuals and we are always eager
         to inspire others with our passion for STEM.
       button: Student Interest Form
-      link: 'https://forms.gle/m27K4cnF4ksc3Gov8'
+      link: "https://forms.gle/m27K4cnF4ksc3Gov8"
     - title: Mentors
       body: >-
         Team 294 is always seeking new mentors to teach engineering principles
         to our students throughout the year. Our team is dependent on volunteer
         mentor support to provide new opportunities for our students.
       button: Mentor Interest Form
-      link: 'https://forms.gle/o5jo5wc9RWPMcjHt5'
+      link: "https://forms.gle/o5jo5wc9RWPMcjHt5"
 faq:
   title: Frequently Asked Questions
   questions:
@@ -50,14 +59,4 @@ faq:
         during the year, including competition chaperoning, carpooling, and
         organizing meals. Parents are also welcome to come to open lab to help
         with field assembly during the start of the season.
-    - question: Where is the lab located?
-      answer: >-
-        The lab is located on the RUHS campus with the entrance at 623 Diamond
-        St, Redondo Beach, CA 90277.
-      images:
-        - title: Map 1
-          image: /media/other/map-1.jpg
-        - title: Map 2
-          image: /media/other/map-2.jpg
 ---
-
