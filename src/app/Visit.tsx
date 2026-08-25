@@ -1,10 +1,18 @@
 import Image from "next/image";
 
-export default function Visit({ content }: any) {
+export default function Visit({
+  content,
+  className = "px-4 py-8 md:py-20",
+  showTitle = true,
+}: any) {
   return (
-    <section className="w-full max-w-screen-xl px-4 py-8 md:py-20">
+    <section className={`w-full max-w-screen-xl ${className}`}>
       <div className="flex flex-col gap-6 text-center">
-        <h1 className="title">{content.title}</h1>
+        {showTitle ? (
+          <h1 className="title">{content.title}</h1>
+        ) : (
+          <div className="bg-primary h-[1px] w-1/2 mx-auto rounded mb-12" />
+        )}
         <p className="body mx-auto max-w-3xl">{content.body}</p>
         <a
           className="button-text button-secondary mx-auto"

@@ -6,6 +6,7 @@ import { useState } from "react";
 import Intro from "./home/Intro";
 import WhoWeAre from "./home/WhoWeAre";
 import Countdown from "./home/Countdown";
+import Visit from "./Visit";
 
 export default function Home() {
   const [retrieved, setRetrieved] = useState(false);
@@ -22,6 +23,14 @@ export default function Home() {
     buttons: [],
   });
 
+  const [visit, setVisit] = useState({
+    title: "",
+    body: "",
+    directionsLink: "",
+    mapEmbedUrl: "",
+    entranceImage: "/media/other/blank.png",
+  });
+
   const [countdown, setCountdown] = useState({
     title: "",
     date: "",
@@ -34,6 +43,7 @@ export default function Home() {
       content = content.data.home;
       if (content.intro) setIntro(content.intro);
       if (content.whoWeAre) setWhoWeAre(content.whoWeAre);
+      if (content.visit) setVisit(content.visit);
       if (content.countdown) setCountdown(content.countdown);
       setRetrieved(true);
     } catch {
@@ -46,10 +56,15 @@ export default function Home() {
   return (
     <div id="home" className="flex flex-col items-center w-full">
       <Intro content={intro} />
-      <WhoWeAre content={whoWeAre} />
-      <div className="bg-primary h-[1px] w-1/2 rounded" />
-      <Countdown content={countdown} />
+      <WhoWeAre content={whoWeAre}>
+        <Visit content={visit} className="p-0" showTitle={false} />
+      </WhoWeAre>
+      {countdown.date && (
+        <>
+          <div className="bg-primary h-[1px] w-1/2 rounded" />
+          <Countdown content={countdown} />
+        </>
+      )}
     </div>
   );
 }
-

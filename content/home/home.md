@@ -13,19 +13,27 @@ whoWeAre:
     The competition season runs every January to April, with the lab space open several days a week. When not actively in-season, the team works on projects to strengthen their skills in engineering, science, technology, and business. Students also volunteer their time to serve their community and spread their love for robotics.
   buttons:
     - title: Instagram
-      link: 'https://www.instagram.com/beachcitiesrobotics'
+      link: "https://www.instagram.com/beachcitiesrobotics"
       image: /media/icons/instagram.png
     - title: The Blue Alliance
-      link: 'https://www.thebluealliance.com/team/294'
+      link: "https://www.thebluealliance.com/team/294"
       image: /media/icons/tba.png
     - title: YouTube
-      link: 'https://www.youtube.com/@294beachcitiesrobotics'
+      link: "https://www.youtube.com/@294beachcitiesrobotics"
       image: /media/icons/youtube.png
     - title: Subscribe to our Mailing List
-      link: 'https://forms.gle/sfED8y2NN847CHvY6'
+      link: "https://forms.gle/sfED8y2NN847CHvY6"
     - title: View our LinkTree
-      link: 'https://linktr.ee/BCR294'
+      link: "https://linktr.ee/BCR294"
+visit:
+  title: Visit Our Lab
+  body: >-
+    Our lab is on the Redondo Union High School campus. Please use the entrance
+    near 623 Diamond St, Redondo Beach, CA 90277.
+  directionsLink: https://maps.app.goo.gl/CUCS6FufDxDmTNtC6
+  mapEmbedUrl: >-
+    https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d963.2549358480761!2d-118.38544440000001!3d33.846277799999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzPCsDUwJzQ2LjYiTiAxMTjCsDIzJzA3LjYiVw!5e1!3m2!1sen!2sus!4v1787546026027!5m2!1sen!2sus
+  entranceImage: /media/other/map-1.jpg
 countdown:
-  title: ''
+  title: ""
 ---
-

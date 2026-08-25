@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export const WhoWeAre = ({ content }: any) => {
+export const WhoWeAre = ({ content, children }: any) => {
   return (
     <section
       id="who-we-are"
@@ -10,6 +10,7 @@ export const WhoWeAre = ({ content }: any) => {
         <p className="title">{content.title}</p>
         <p className="body text-justify">{content.body}</p>
       </div>
+      {children}
       <div className="flex flex-col items-center gap-8 w-full">
         <div className="flex flex-row gap-8">
           {content.buttons?.map((button: any) =>

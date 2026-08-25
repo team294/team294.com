@@ -5,7 +5,7 @@ import { useState } from "react";
 
 import Interest from "./Interest";
 import Faq from "./Faq";
-import Visit from "./Visit";
+import Visit from "../Visit";
 
 export default function Join() {
   const [retrieved, setRetrieved] = useState(false);
