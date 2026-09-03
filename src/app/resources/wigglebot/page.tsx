@@ -1,13 +1,8 @@
-"use client";
-
 import { client } from "../../../../tina/__generated__/client";
-import { useState } from "react";
 import Image from "next/image";
 
-export default function WiggleBot() {
-  const [retrieved, setRetrieved] = useState(false);
-
-  const [tutorial, setTutorial] = useState({
+export default async function WiggleBot() {
+  const fallbackTutorial = {
     title: "",
     note: "",
     header: "",
@@ -20,23 +15,9 @@ export default function WiggleBot() {
         images: [],
       },
     ],
-  });
-
-  const retrieveContent = async () => {
-    let content: any = null;
-    try {
-      content = await client?.queries?.tutorial({
-        relativePath: "wigglebot.md",
-      });
-      content = content.data.tutorial;
-      if (content) setTutorial(content);
-      setRetrieved(true);
-    } catch {
-      console.log("Failed to fetch.");
-    }
   };
-
-  if (!retrieved) retrieveContent();
+  const response = await client.queries.tutorial({ relativePath: "wigglebot.md" });
+  const tutorial: any = response.data.tutorial ?? fallbackTutorial;
 
   return (
     <section
@@ -57,7 +38,7 @@ export default function WiggleBot() {
             <div>
               <b>{tutorial.materials ? "Materials:" : ""}</b>
               <ul className="list-disc list-outside ml-5 md:ml-8">
-                {tutorial.materials?.map((material) => (
+                {tutorial.materials?.map((material: string) => (
                   <li key={material}>{material}</li>
                 ))}
               </ul>
@@ -65,7 +46,7 @@ export default function WiggleBot() {
             <div>
               <b>{tutorial.tools ? "Tools:" : ""}</b>
               <ul className="list-disc list-outside ml-5 md:ml-8">
-                {tutorial.tools?.map((tool) => (
+                {tutorial.tools?.map((tool: string) => (
                   <li key={tool}>{tool}</li>
                 ))}
               </ul>
@@ -97,14 +78,14 @@ export default function WiggleBot() {
         <div>
           <b>Instructions:</b>
           <ol className="list-decimal list-outside ml-5 md:ml-8 space-y-6">
-            {tutorial.instructions?.map((step, key) => (
+            {tutorial.instructions?.map((step: any, key: number) => (
               <div
                 key={key}
                 className="flex flex-row flex-wrap gap-x-8 gap-y-2"
               >
                 <li className="max-w-md">{step.text}</li>
                 <div className="flex flex-row flex-wrap gap-4">
-                  {step.images?.map((image, key) => (
+                  {step.images?.map((image: string, key: number) => (
                     <Image
                       src={image}
                       width={1000}

@@ -1,47 +1,22 @@
-"use client";
-
 import { client } from "../../../tina/__generated__/client";
-import { useState } from "react";
 
 import Interest from "./Interest";
 import Faq from "./Faq";
 import Visit from "../Visit";
 
-export default function Join() {
-  const [retrieved, setRetrieved] = useState(false);
-
-  const [interest, setInterest] = useState({
-    groups: [],
-  });
-
-  const [visit, setVisit] = useState({
+export default async function Join() {
+  const fallbackVisit = {
     title: "",
     body: "",
     directionsLink: "",
     mapEmbedUrl: "",
     entranceImage: "/media/other/blank.png",
-  });
-
-  const [faq, setFAQ] = useState({
-    title: "",
-    questions: [],
-  });
-
-  const retrieveContent = async () => {
-    let content: any = null;
-    try {
-      content = await client?.queries?.join({ relativePath: "join.md" });
-      content = content.data.join;
-      if (content.visit) setVisit(content.visit);
-      if (content.interest) setInterest(content.interest);
-      if (content.faq) setFAQ(content.faq);
-      setRetrieved(true);
-    } catch {
-      console.log("Failed to fetch.");
-    }
   };
-
-  if (!retrieved) retrieveContent();
+  const response = await client.queries.join({ relativePath: "join.md" });
+  const content = response.data.join;
+  const interest = content.interest ?? { groups: [] };
+  const visit = content.visit ?? fallbackVisit;
+  const faq = content.faq ?? { title: "", questions: [] };
 
   return (
     <div id="join" className="flex flex-col items-center w-full">
