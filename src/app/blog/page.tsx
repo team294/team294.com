@@ -1,35 +1,16 @@
-"use client";
-
 import { client } from "../../../tina/__generated__/client";
-import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Blog() {
-  const [retrieved, setRetrieved] = useState(false);
-
-  const [posts, setPosts] = useState([]);
-
-  const retrieveContent = async () => {
-    let content: any = null;
-    try {
-      content = await client?.queries?.blogConnection();
-      content = content.data.blogConnection?.edges?.map(
-        (edge: any) => edge.node
-      );
-      content = content.sort((a: any, b: any) => {
-        const dateA = new Date(a.date);
-        const dateB = new Date(b.date);
-        return dateB.getTime() - dateA.getTime();
-      });
-      if (content) setPosts(content);
-      setRetrieved(true);
-    } catch {
-      console.log("Failed to fetch.");
-    }
-  };
-
-  if (!retrieved) retrieveContent();
+export default async function Blog() {
+  const response = await client.queries.blogConnection();
+  const posts = (response.data.blogConnection?.edges?.map(
+    (edge: any) => edge.node
+  ) ?? []).sort((a: any, b: any) => {
+    const dateA = new Date(a.date);
+    const dateB = new Date(b.date);
+    return dateB.getTime() - dateA.getTime();
+  });
 
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);

@@ -1,57 +1,41 @@
-"use client";
-
 import { client } from "../../tina/__generated__/client";
-import { useState } from "react";
 
 import Intro from "./home/Intro";
 import WhoWeAre from "./home/WhoWeAre";
 import Countdown from "./home/Countdown";
 import Visit from "./Visit";
 
-export default function Home() {
-  const [retrieved, setRetrieved] = useState(false);
-
-  const [intro, setIntro] = useState({
+export default async function Home() {
+  const fallbackIntro = {
     prefix: "",
     title: "",
     image: "/media/other/blank.png",
-  });
+  };
 
-  const [whoWeAre, setWhoWeAre] = useState({
+  const fallbackWhoWeAre = {
     title: "",
     body: "",
     buttons: [],
-  });
+  };
 
-  const [visit, setVisit] = useState({
+  const fallbackVisit = {
     title: "",
     body: "",
     directionsLink: "",
     mapEmbedUrl: "",
     entranceImage: "/media/other/blank.png",
-  });
-
-  const [countdown, setCountdown] = useState({
-    title: "",
-    date: "",
-  });
-
-  const retrieveContent = async () => {
-    let content: any = null;
-    try {
-      content = await client?.queries?.home({ relativePath: "home.md" });
-      content = content.data.home;
-      if (content.intro) setIntro(content.intro);
-      if (content.whoWeAre) setWhoWeAre(content.whoWeAre);
-      if (content.visit) setVisit(content.visit);
-      if (content.countdown) setCountdown(content.countdown);
-      setRetrieved(true);
-    } catch {
-      console.log("Failed to fetch.");
-    }
   };
 
-  if (!retrieved) retrieveContent();
+  const fallbackCountdown = {
+    title: "",
+    date: "",
+  };
+  const response = await client.queries.home({ relativePath: "home.md" });
+  const content = response.data.home;
+  const intro = content.intro ?? fallbackIntro;
+  const whoWeAre = content.whoWeAre ?? fallbackWhoWeAre;
+  const visit = content.visit ?? fallbackVisit;
+  const countdown = content.countdown ?? fallbackCountdown;
 
   return (
     <div id="home" className="flex flex-col items-center w-full">
