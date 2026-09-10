@@ -33,52 +33,52 @@ mentors:
   title: Mentors
   mentors:
     - image: /media/mentors/sarah-keasler.jpg
-      name: Sarah Keasler
+      name: Sarah K.
       role: Teacher Coach
     - image: /media/mentors/natalie-villani.jpg
-      name: Natalie Villani
+      name: Natalie V.
       role: Lead Mentor - Operations
     - image: /media/mentors/zac-couch.jpg
-      name: Zac Couch
+      name: Zac C.
       role: Lead Mentor - Mechanical
     - image: /media/mentors/jenna-tripoli.jpg
-      name: Jenna Tripoli
+      name: Jenna T.
       role: Lead Mentor - Programming
     - image: /media/mentors/don-sawdai.jpg
-      name: Don Sawdai
+      name: Don S.
       role: Programming Mentor
     - image: /media/mentors/dave-ansari.jpg
-      name: Dave Ansari
+      name: Dave A.
       role: Mechanical Mentor
     - image: /media/mentors/john-haggerty.jpg
-      name: John Haggerty
+      name: John H.
       role: Electrical Mentor
     - image: /media/mentors/bailey-lunn.png
-      name: Bailey Lunn
+      name: Bailey L.
       role: Mechanical Mentor
     - image: /media/mentors/aidan-toscano.png
-      name: Aidan Toscano
+      name: Aidan T.
       role: Mechanical Mentor
     - image: /media/mentors/arnav-kakarla.jpeg
-      name: Arnav Kakarla
+      name: Arnav K.
       role: Mechanical Mentor
     - image: /media/mentors/mentor.png
-      name: Anirudh Kumar
+      name: Anirudh K.
       role: Mechanical Mentor
     - image: /media/mentors/jessica-x.png
-      name: Jessica X
+      name: Jessica X.
       role: Operations Mentor
     - image: /media/mentors/kristen-ung.jpg
-      name: Kristen Ung
+      name: Kristen U.
       role: Electrical Mentor
     - image: /media/mentors/chris-golden.jpg
-      name: Chris Golden
+      name: Chris G.
       role: Mechanical Mentor
     - image: /media/mentors/ruth-cleveland.jpg
-      name: Ruth Cleveland
+      name: Ruth C.
       role: Mechanical Mentor
     - image: /media/mentors/angelina-rossini.jpg
-      name: Angelina Rossini
+      name: Angelina R.
       role: Mechanical Mentor
 studentLeads:
   title: Student Leads
