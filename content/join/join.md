@@ -17,6 +17,9 @@ interest:
         to inspire others with our passion for STEM.
       button: Student Interest Form
       link: "https://forms.gle/m27K4cnF4ksc3Gov8"
+      notice: >-
+        Enrollment is closed for the 2026–2027 school year, but you can fill out
+        this form for the following year.
     - title: Mentors
       body: >-
         Team 294 is always seeking new mentors to teach engineering principles

@@ -218,6 +218,14 @@ export default defineConfig({
                     name: "link",
                     label: "Link",
                   },
+                  {
+                    type: "string",
+                    name: "notice",
+                    label: "Notice Below Button",
+                    ui: {
+                      component: "textarea",
+                    },
+                  },
                 ],
               },
             ],
