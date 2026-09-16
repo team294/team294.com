@@ -19,6 +19,11 @@ export const Interest = ({ content }: any) => {
           >
             {group.button}
           </a>
+          {group.notice && (
+            <p className="body mt-4 text-center">
+              {group.notice}
+            </p>
+          )}
         </div>
       ))}
     </section>
