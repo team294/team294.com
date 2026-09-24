@@ -29,6 +29,22 @@ subteams:
       icon: /media/icons/business.png
       body: 'The Business Sub-Team at Beach Cities Robotics is dedicated to the internal operations that ensure our team''s sustainability and success. We manage the logistics of each event, overseeing application processes and payment deadlines. Our team crafts strategic plans to promote long-term stability, including securing sponsorships, budgeting, developing educational programs, and recruiting new students. We also coordinate outreach event logistics, liaising with vendors and collaborating with other teams. In addition, we manage our team''s brand, ensuring consistency across our Instagram, merchandise, flyers, and website. For awards, we focus on submitting the FIRST Woodie Flowers Award, which honors outstanding FRC team mentors.'
       image: /media/subteams/business.jpg
+impact:
+  title: Our Impact
+  mission: >-
+    Team 294 is committed to providing STEAM opportunities to the Beach Cities as we strive to inspire young minds to grow and change the world for the better. We are dedicated to fostering a fun and healthy learning environment where everyone belongs. In line with these values, we are a community based team that draws students together from two rival high schools as well as welcoming students from schools that don’t have access to FRC teams.
+
+    As a FIRST team, we are devoted to fostering, cultivating and preserving a culture of diversity, equity, and inclusion. We embrace and encourage differences in race, ethnicity, national origin, sex, gender, gender identity, gender expression, sexual orientation, disability, age, religion, income, language, learning difference, or any other characteristics that make members of our team and community unique.
+
+    In part of this effort, our team focuses on inclusivity across all of our initiatives because we know that there is not a lack of skill in the world, but rather a lack of opportunities. These opportunities arise out of welcoming spaces that value everyone, no matter who they are.
+  initiatives:
+    - title: Team Gender Imbalance
+      body: >-
+        In 2023, our team had a 1:5 Female-to-Male ratio. We saw this as a problem that we had to address. Our team did this by creating a three step plan that involved direct outreach to girls, efforts to make STEM information more accessible, and the creation of training programs put in place to combat imposter syndrome. These training programs give all new members of our team the tools and skills needed to thrive regardless of their background. Through our efforts, we have reduced our gender imbalance down to a 1:2 Female-to-Male ratio and now 2/3 of our leadership team are women. Another focus of our effort to fight gender imbalance in STEM can be seen in our mentorship of local FLL teams where we address gender inequality. Our team will continue to strive to reduce gender imbalance in both our team and local community.
+    - title: Brickbotics
+      link: https://www.friendshipfoundation.com/
+      body: >-
+        Brickbotics is a 6 week robotics program created by our team in partnership with The Friendship Foundation. It increases interest, awareness, and access to STEM within members of our community who live with differing developmental abilities. Our team works extremely hard to create an environment and welcoming atmosphere where everyone can thrive and where all participant's contributions are equally celebrated. Members of our community who live with differing developmental abilities are often overlooked and excluded from areas of STEAM so to be able to share robotics with them and include them has been extremely rewarding for our team. In the future, Team 294 hopes to expand programs such as this one in order to make STEM a more welcoming palace for all.
 mentors:
   title: Mentors
   mentors:
@@ -106,4 +122,3 @@ parentVolunteers:
     - name: Sara Stewart
     - name: Deling Liu
 ---
-

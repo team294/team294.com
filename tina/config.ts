@@ -379,6 +379,48 @@ export default defineConfig({
           },
           {
             type: "object",
+            name: "impact",
+            label: "Our Impact",
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Title",
+              },
+              {
+                type: "string",
+                name: "mission",
+                label: "Mission Statement",
+                ui: { component: "textarea" },
+              },
+              {
+                type: "object",
+                name: "initiatives",
+                label: "Initiatives",
+                list: true,
+                fields: [
+                  {
+                    type: "string",
+                    name: "title",
+                    label: "Title",
+                  },
+                  {
+                    type: "string",
+                    name: "body",
+                    label: "Description",
+                    ui: { component: "textarea" },
+                  },
+                  {
+                    type: "string",
+                    name: "link",
+                    label: "Optional Link",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            type: "object",
             name: "studentLeads",
             label: "Student Leads",
             fields: [
